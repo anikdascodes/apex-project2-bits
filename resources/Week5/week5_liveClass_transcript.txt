@@ -1,0 +1,1677 @@
+WEBVTT
+
+1
+00:00:27.820 --> 00:00:29.030
+Bharathi Dasari: Hey, everyone.
+
+2
+00:00:31.260 --> 00:00:33.440
+Bharathi Dasari: Let's get started.
+
+3
+00:00:34.290 --> 00:00:40.380
+Bharathi Dasari: So, I hope you're aware that, quarter is open for week 5 submissions, metric submissions.
+
+4
+00:00:40.660 --> 00:00:53.690
+Bharathi Dasari: If you guys have any questions in terms of submission, or what, areas that need to be covered in the submission, please do let me know. Or when you're working on any problem statement, you got stuck anywhere, do let me know that as well.
+
+5
+00:01:09.650 --> 00:01:24.080
+Bharathi Dasari: So, maybe I will just reiterate what we have posted already in the bits group, Lumen Protect. You can expect the results for week 2 submissions by tomorrow, so there is a slight delay,
+
+6
+00:01:24.630 --> 00:01:29.750
+Bharathi Dasari: because of that, we were not able to post the results. I think by tomorrow, you guys can expect.
+
+7
+00:01:29.880 --> 00:01:39.060
+Bharathi Dasari: So, let me reiterate the format for submissions. We have mentioned this multiple times in announcements, as well as in the class.
+
+8
+00:01:39.250 --> 00:01:42.060
+Bharathi Dasari: Still, people are posting zip files.
+
+9
+00:01:42.140 --> 00:01:57.800
+Bharathi Dasari: We clearly want a doc file for the project submission, and a Python Jupyter notebook. We don't want them to be clubbed together in a zip file. Please note this while submitting for Bigfire, this is very much important. If youâ€¦
+
+10
+00:01:57.800 --> 00:02:10.869
+Bharathi Dasari: Guys, submit a GP file. It's a manual effort. Every time, for every student, we have to go and do it, so which is taking more time for evaluations. So, please keep this in mind when you're submitting vehicle submissions, okay?
+
+11
+00:02:12.650 --> 00:02:15.119
+Bharathi Dasari: And then,
+
+12
+00:02:15.340 --> 00:02:23.279
+Bharathi Dasari: I will tell you the areas that need to be covered for week 5 submission. I think I have reiterated in the last class, but I'll retell it again.
+
+13
+00:02:23.580 --> 00:02:31.059
+Bharathi Dasari: So, the project proposal document, big to what you guys have submitted, it will remain same as it is. Apart from that.
+
+14
+00:02:31.110 --> 00:02:45.219
+Bharathi Dasari: This time, you guys need to submit the Jupyter notebook. In the Jupyter notebook, so it should have the dataset details, providing the data source, where you have downloaded the Kaggle, the link, and how to read the data.
+
+15
+00:02:45.380 --> 00:02:46.580
+Bharathi Dasari: And thenâ€¦
+
+16
+00:02:46.890 --> 00:02:57.869
+Bharathi Dasari: What is your target variable? What are the important features, and data size, and basic data understanding, like initial observations, and the challenges that you guys are going to face.
+
+17
+00:03:02.240 --> 00:03:03.010
+Bharathi Dasari: Yep.
+
+18
+00:03:04.190 --> 00:03:11.739
+Bharathi Dasari: And then, basic data exploratory analysis you guys will be doing. So, which you have covered in the previous EPEX project in the same way.
+
+19
+00:03:12.380 --> 00:03:15.979
+Bharathi Dasari: Data preparation, EDA, and then Future Engineering.
+
+20
+00:03:16.330 --> 00:03:20.480
+Bharathi Dasari: So, next comes the baseline model preparation. Try to start with a basic model.
+
+21
+00:03:20.600 --> 00:03:29.800
+Bharathi Dasari: Implement the model, and explain what the baseline model is giving the results. Like, let's say, based on the problem statement you have chosen, whether it's a classification or a regression.
+
+22
+00:03:30.330 --> 00:03:37.830
+Bharathi Dasari: try to get the accuracy metrics, or the F1 score metrics, whatever you think that is reasonable for the particular model you have chosen.
+
+23
+00:03:38.010 --> 00:03:43.329
+Bharathi Dasari: And then, do the initial model comparison. Try to at least do it for one more additional model.
+
+24
+00:03:43.500 --> 00:03:45.170
+Bharathi Dasari: And then try to see.
+
+25
+00:03:45.430 --> 00:03:50.380
+Bharathi Dasari: Once you have done this, maybe you can go for the hyperparameter tuning, andâ€¦
+
+26
+00:03:51.090 --> 00:04:03.849
+Bharathi Dasari: Decide on the hyperparameter technique you guys are going to work for, whether it's a grid search or evasion optimization, it's up to you. Define the parameters you are going to use for the hyperparameter tuning, and the observations you have felt for the hyperparameter tuning.
+
+27
+00:04:05.330 --> 00:04:12.150
+Bharathi Dasari: And then, evaluation metrics. So, for the baseline model, you guys have built, and the hyperparameter tuning techniques you have built.
+
+28
+00:04:12.380 --> 00:04:20.389
+Bharathi Dasari: You can come up with a conclusion, like, these are the iterations or the models we have tried, these are the observations so far, this is what we want to do in a final step.
+
+29
+00:04:20.570 --> 00:04:35.889
+Bharathi Dasari: And then what improvements you can do in the final submission, right? So, till now, we've worked on the baseline model, and then you guys can work on the final model. So, this is a brief context of what we are expecting from a week 5 submission.
+
+30
+00:04:36.290 --> 00:04:37.989
+Bharathi Dasari: So far, any questions?
+
+31
+00:04:40.660 --> 00:04:50.519
+was was: Ma'am, the first Word document and, this Word document, do both of them need to be merged, or will this, the week 5 template needs to be only submitted?
+
+32
+00:04:52.290 --> 00:04:57.690
+Bharathi Dasari: project proposal, which you guys have submitted in week 2, that you will be submitting, and then the Python notebook.
+
+33
+00:04:59.490 --> 00:05:10.359
+was was: Ma'am, I mean, like, the week 2 document? Do we need to combine this with the week 5 document, or do we need to submit the week 5 only?
+
+34
+00:05:11.470 --> 00:05:16.550
+Bharathi Dasari: Okay, when you say weak fare document, what are you planning to submit in Week Fair document? Soâ€¦
+
+35
+00:05:16.550 --> 00:05:21.740
+was was: The template that's given, that data processing till the plan improvements.
+
+36
+00:05:23.420 --> 00:05:26.980
+Bharathi Dasari: Okay, so the Bigfair template which we have given.
+
+37
+00:05:27.120 --> 00:05:39.419
+Bharathi Dasari: Thatâ€¦ those are the areas that need to be covered in the Python notebook. So, the evaluation is going to be carried out over, on the Python notebook. So, these are the sections that need to be covered in the Python notebook.
+
+38
+00:05:40.870 --> 00:05:43.859
+was was: Okay, then what needs to be written in the document?
+
+39
+00:05:44.920 --> 00:05:49.409
+Bharathi Dasari: No document, okay, it's the same project proposal document which you have submitted, that one only.
+
+40
+00:05:51.480 --> 00:05:57.610
+was was: Okay, so the week 2 document, we need to submit that, and the updated Jupyter Notebook, that's it.
+
+41
+00:05:57.610 --> 00:05:58.730
+Bharathi Dasari: Yes, yes.
+
+42
+00:05:59.200 --> 00:06:00.250
+was was: Okay, understood.
+
+43
+00:06:08.220 --> 00:06:17.930
+Bharathi Dasari: So, the portal submissions are open. I mean, like, the portal is open today. From today to next week, 26, the portal will be open for week-by submissions.
+
+44
+00:06:18.060 --> 00:06:26.769
+Bharathi Dasari: Yeah, you guys can submit whenever you guys are ready. Do reach out to us in the course query section if you guys face any query. Even after Repeto.
+
+45
+00:06:26.960 --> 00:06:39.079
+Bharathi Dasari: Announcements, we are still getting queries over email. It's hard to respond to emails, so please try to post your queries in the Lumen portal in the post query section. We will try to respond there actively, okay?
+
+46
+00:06:39.720 --> 00:06:40.410
+Bharathi Dasari: Yep.
+
+47
+00:06:41.480 --> 00:06:48.389
+Bharathi Dasari: Any other questions? You guys started working on the notebook, you guys got stuck anywhere with respect to baseline, what are the hyperparameter tuning?
+
+48
+00:06:51.680 --> 00:06:52.910
+Sindhu Manvitha M V: Hello, ma'am?
+
+49
+00:06:53.900 --> 00:06:54.689
+Bharathi Dasari: Yeah, hi.
+
+50
+00:06:57.480 --> 00:07:10.529
+Sindhu Manvitha M V: Ma'am, I have a doubt that I asked in the last session as well. Are there any gradings that we will be receiving for our previous submission? If it is yes, then when can weâ€¦
+
+51
+00:07:12.000 --> 00:07:25.199
+Bharathi Dasari: So, since we have submitted to the ops team, there is a slight delay we are expecting from the ops team. So, by tomorrow, you guys can expect that is what that has been communicated to us. So, max, by tomorrow, you guys will receive.
+
+52
+00:07:25.420 --> 00:07:32.940
+Bharathi Dasari: So, okay, just for an update purpose, I will tell you. So, I haveâ€¦ we have beenâ€¦ me and Ashish have been to all of your project proposals.
+
+53
+00:07:32.940 --> 00:07:46.519
+Bharathi Dasari: So everyone has performed well. There are no such things as major feedbacks that need to be given, so there are only minor feedbacks, which need to be improved, so I think you guys can work on it, like, even if the subâ€¦ I mean, like, grading is delayed.
+
+54
+00:07:49.090 --> 00:08:03.739
+Sindhu Manvitha M V: I just want to understand on what analysis, the project is moving on, so that's the reason. I just want to read the remarks so that I can progress it to the next submission. That's it now. Yeah.
+
+55
+00:08:03.740 --> 00:08:14.549
+Bharathi Dasari: Understood. So, basically, we got, around 100 zip file submissions, even after mentioning, because of the zip files, like, there is a delay in the verification from our side.
+
+56
+00:08:14.970 --> 00:08:15.630
+Bharathi Dasari: Yeah.
+
+57
+00:08:16.590 --> 00:08:17.270
+Sindhu Manvitha M V: Okay.
+
+58
+00:08:17.420 --> 00:08:18.560
+Sindhu Manvitha M V: Thank you.
+
+59
+00:08:22.360 --> 00:08:25.950
+Bharathi Dasari: Soâ€¦ Yeah.
+
+60
+00:08:26.550 --> 00:08:31.660
+was was: Ma'am, in the Pulse, the Pulse app, there is a, like,
+
+61
+00:08:31.900 --> 00:08:36.120
+was was: There's a notification that says, like, the week 5 document needs to contain
+
+62
+00:08:36.289 --> 00:08:43.230
+was was: like, data processing, EDA, feature engineering, do we have to explain this in the document? Because it's mentioned in the Pulse app.
+
+63
+00:08:47.180 --> 00:08:51.689
+Bharathi Dasari: Data. Okay, so we have given a template, soâ€¦
+
+64
+00:08:51.740 --> 00:09:06.000
+Bharathi Dasari: Okay, remember the way how you have submitted for the Apex Project 1? There are marked lines and markdowns and everything, right? After every section, like, you have clearly defined a section of data preparation, EDA, and everything, feature engineering and everything.
+
+65
+00:09:06.000 --> 00:09:24.140
+Bharathi Dasari: Those are markdowns, and clearly, what you have understood and what you have done in that particular section, they were written in the form of comments, right? The same is being expected from this submission. So, there is no separate Word doc that is required. Python is theâ€¦ I mean, Jupyter Notebook is something Word required.
+
+66
+00:09:24.140 --> 00:09:29.470
+Bharathi Dasari: You guys do not need to work on the docfel at this moment. The same week to submission.
+
+67
+00:09:29.490 --> 00:09:38.779
+Bharathi Dasari: what you have done, that you guys will be submitting. If there are any suggestions that has been added in your graded week 2 assignment, that you will be improving it.
+
+68
+00:09:39.240 --> 00:09:42.550
+Bharathi Dasari: In the week to feedback, what you will get, that you will be improving, yeah.
+
+69
+00:09:42.980 --> 00:09:44.000
+was was: Okay, understood.
+
+70
+00:09:44.830 --> 00:09:46.190
+Sindhu Manvitha M V: Excuse me, Mom?
+
+71
+00:09:46.330 --> 00:09:48.270
+Sindhu Manvitha M V: Another small doubt.
+
+72
+00:09:49.000 --> 00:10:02.259
+Sindhu Manvitha M V: Do we need to start from the scratch for this week 5 submission, or doâ€¦ can we make some changes to the week 2 and rename it and submit for the week 5? Will that be working, orâ€¦
+
+73
+00:10:02.610 --> 00:10:04.259
+Bharathi Dasari: Are you referring to the doctor?
+
+74
+00:10:05.870 --> 00:10:09.690
+Sindhu Manvitha M V: Yeah, yeah, file submission. Yeah, don't feel need to be the same way.
+
+75
+00:10:10.430 --> 00:10:14.479
+Bharathi Dasari: Doc file, you can slightly modify based on the feedback you get. That's it.
+
+76
+00:10:15.900 --> 00:10:18.969
+Bharathi Dasari: The main book will be for Python notebook.
+
+77
+00:10:20.710 --> 00:10:33.419
+Sindhu Manvitha M V: Okay, the Python notebook also, we can take the week to submission and add the Bigfire submission requirements, and we can, rename it and, submit. Okay, thank you.
+
+78
+00:10:35.620 --> 00:10:43.500
+was was: For the second problem statement, there is a data leak in the sales variable, so should I,
+
+79
+00:10:44.170 --> 00:10:47.800
+was was: drop this variable, or should I, like, do something with it?
+
+80
+00:10:48.430 --> 00:10:50.690
+Bharathi Dasari: What do you mean by data leakage?
+
+81
+00:10:51.710 --> 00:10:53.429
+was was: Mom, because, like,
+
+82
+00:10:54.520 --> 00:11:10.709
+was was: like, in this collab, there is this Gemini feature, so I was using that, and it said, like, there's a data leak, because, like, the R-square, the RMSE was too high, so it said, like, there might be a data leak in the sales variable.
+
+83
+00:11:11.080 --> 00:11:12.490
+was was: Soâ€¦
+
+84
+00:11:12.630 --> 00:11:22.010
+was was: I wanted to ask if I should drop it, or should I, like, do something else with the sales variable? It told me, like, I have to minus tax and, you know, make a new variable for sales.
+
+85
+00:11:25.330 --> 00:11:26.160
+Bharathi Dasari: Yeah.
+
+86
+00:11:26.940 --> 00:11:31.099
+Bharathi Dasari: So, whatâ€¦ so you're saying the data leakage is coming from the sales?
+
+87
+00:11:31.880 --> 00:11:34.520
+was was: Yes, ma'am, from item outlet sales corner.
+
+88
+00:11:36.820 --> 00:11:46.740
+Bharathi Dasari: How are you sureâ€¦ I'm like, you know RMSC side, that's why you're saying there is a data leakage, but have you tried debugging into why it was happening? Like, from where it is coming?
+
+89
+00:11:47.730 --> 00:11:57.940
+was was: Yeah, I asked Gemini in this collab, and it told me that there was a data leak in the sales variable. I asked, like, how to fix it. It told me that, that, tax andâ€¦
+
+90
+00:11:58.510 --> 00:12:03.039
+was was: one of the variable are, like, interfering, so I have to, like, back-calculate it, something like that.
+
+91
+00:12:03.040 --> 00:12:06.989
+Bharathi Dasari: Okay, so you are giving tax as a input variable?
+
+92
+00:12:08.470 --> 00:12:14.780
+was was: Not as an input, it's like, the sales include the taxes, like, it's giving the final amount, it told me to back-calculate it, like, my,
+
+93
+00:12:15.000 --> 00:12:15.970
+was was: Like, heâ€¦
+
+94
+00:12:16.540 --> 00:12:22.349
+was was: what it does, like, sales plus tax, so it's telling me to do sales minus tax to find out the MRP.
+
+95
+00:12:22.820 --> 00:12:24.650
+was was: But to get back to the originalâ€¦
+
+96
+00:12:24.650 --> 00:12:26.460
+Bharathi Dasari: What is your dependent variable here?
+
+97
+00:12:27.860 --> 00:12:29.550
+was was: Dependent is salesman.
+
+98
+00:12:30.400 --> 00:12:37.040
+Bharathi Dasari: dependencies, soâ€¦ Like, what are the variables you are taking in the input data?
+
+99
+00:12:37.620 --> 00:12:42.560
+Bharathi Dasari: Are there anything that's related to sales, which is direct, one or the other way you can calculate it from there?
+
+100
+00:12:43.940 --> 00:12:50.840
+was was: There is sales item identifier, outlet identifier, item type, item category, item fat content.
+
+101
+00:12:51.280 --> 00:12:54.879
+was was: And outlet establishment here. These are the variables selected.
+
+102
+00:12:55.690 --> 00:13:02.540
+Bharathi Dasari: then I think, from the list you have given, I don't think there is any chance of data leakage from the variables, becauseâ€¦
+
+103
+00:13:02.830 --> 00:13:07.269
+Bharathi Dasari: You might be giving theâ€¦ yeah, I don't think there is a data leakage.
+
+104
+00:13:07.390 --> 00:13:12.210
+Bharathi Dasari: Yes, because you're not giving any way with respect to sales, right? Soâ€¦
+
+105
+00:13:12.380 --> 00:13:16.789
+Bharathi Dasari: Okay. Do you have a date of purchase or something in your data?
+
+106
+00:13:18.400 --> 00:13:19.229
+was was: No more.
+
+107
+00:13:20.390 --> 00:13:25.840
+was was: But, but there is item MRP and, And items sold.
+
+108
+00:13:26.460 --> 00:13:27.520
+was was: Okay. Quantity.
+
+109
+00:13:27.520 --> 00:13:31.340
+Bharathi Dasari: MRP and tax, are you including it in the input variable or something?
+
+110
+00:13:32.410 --> 00:13:36.079
+was was: It's already calculated, like, it's calculated in the data itself.
+
+111
+00:13:37.350 --> 00:13:41.240
+Bharathi Dasari: Okay. Are you considering that as an input wherewood while building a model?
+
+112
+00:13:42.030 --> 00:13:43.090
+was was: Yes, ma'am, yes.
+
+113
+00:13:43.710 --> 00:13:50.319
+Bharathi Dasari: You were not supposed to do that, right? Because, it's one way of giving the sales information already in the training data.
+
+114
+00:13:50.430 --> 00:14:02.420
+Bharathi Dasari: then definitely there will be a data leakage. Try to drop the sales and MRP, because they are directly, highly correlated, and it's almost talking about the same thing, right? Tax is like a 5% of your MRP product, soâ€¦
+
+115
+00:14:02.480 --> 00:14:10.959
+Bharathi Dasari: Your sales value is directly proportional to the tax, so try to drop the MRP or the tax bill, that will work for you. I think you will be able to do some of the data legalization.
+
+116
+00:14:11.870 --> 00:14:16.740
+was was: but I'm splitting the data, and there's two different files for train and test.
+
+117
+00:14:16.960 --> 00:14:21.259
+was was: So, in the test data, there is no MRP, because they have removed it.
+
+118
+00:14:22.770 --> 00:14:35.849
+Bharathi Dasari: Okay, remove it from the train also, right? So, you will be training your model on the data. There shouldn't beâ€¦ okay, when the leakage is happening, when do you say when a leakage happens, right? If thereâ€¦ if there is an issue in the training data.
+
+119
+00:14:36.100 --> 00:14:44.050
+Bharathi Dasari: Okay, you were not supposed to trainâ€¦ like, your train data and test data should always have the same number of features.
+
+120
+00:14:44.190 --> 00:14:57.640
+Bharathi Dasari: So, it's not like train data should have 10 variables, and test data should have 9 variables. Both should have the same number of variables. So, if your MRP is directly telling, or the tax is directly telling about your sales price, right?
+
+121
+00:14:57.710 --> 00:15:05.390
+Bharathi Dasari: So, try to drop that feature in the train, and try to train theâ€¦ retrain the model, and try to see what is happening with the RMSC.
+
+122
+00:15:06.000 --> 00:15:06.780
+Bharathi Dasari: Okay?
+
+123
+00:15:07.340 --> 00:15:09.949
+was was: Okay, so I should drop the MRP or the tax.
+
+124
+00:15:10.740 --> 00:15:11.250
+Bharathi Dasari: Yeah.
+
+125
+00:15:11.880 --> 00:15:13.170
+was was: Okay, understood.
+
+126
+00:15:27.060 --> 00:15:37.410
+Bharathi Dasari: Sindhu, for your question, you guys can add, like, as many features, like, if you want to further improve the data, you guys can do, but I think.
+
+127
+00:15:37.870 --> 00:15:46.650
+Bharathi Dasari: measure to the features, I think, since you're building a baseline model, from baseline to when you're adding a next model, I think you can add more features.
+
+128
+00:15:46.800 --> 00:15:54.949
+Bharathi Dasari: You can further improve it for the final submission. There is no such restriction, like, whatever features you are going to add, you need to keep it till the final submission.
+
+129
+00:16:04.880 --> 00:16:14.580
+Bharathi Dasari: And also, when you're adding the number of features, try to see how long it is taking for you to train and tune the model. Yeah, that is something you need to keep in your mind while doing that.
+
+130
+00:16:19.010 --> 00:16:33.770
+Bharathi Dasari: And while doing hyperparameter tuning, try to introduce at least shopping, so that, your hyperparameter tuning won't run for a long time. So the moment you were able to get the established results.
+
+131
+00:16:33.820 --> 00:16:42.389
+Bharathi Dasari: the hyperparameter tuning won't require longer than, right? So try to introduce the early stopping, and yeah, it will help in performing better.
+
+132
+00:16:46.860 --> 00:16:56.980
+Bharathi Dasari: And also, while transforming features for the ANN models, try to do some log transformations wherever it is applied for your datasets. That will give better results.
+
+133
+00:17:03.090 --> 00:17:05.409
+Bharathi Dasari: And if you thinkâ€¦
+
+134
+00:17:06.540 --> 00:17:20.700
+Bharathi Dasari: Ifâ€¦ for the feature engineeringâ€¦ I mean, like, for the feature transformation, if pinning is going to help your data more, try to introduce pinning of the data. That will also be added as one more feature. So, instead of raw variables, that will give a better picture.
+
+135
+00:17:29.900 --> 00:17:30.600
+Bharathi Dasari: Yeah.
+
+136
+00:17:31.210 --> 00:17:32.640
+Bharathi Dasari: Any questions?
+
+137
+00:17:37.240 --> 00:17:42.289
+Bharathi Dasari: On where to work onâ€¦ on the aspects of EDF feature engineering.
+
+138
+00:17:45.970 --> 00:17:47.860
+Bharathi Dasari: Okay, soâ€¦
+
+139
+00:17:48.050 --> 00:18:07.460
+Bharathi Dasari: I will reiterate the sections that need to be covered in the submissions. Please go through them. Like, these are some basic steps I will be telling. You can further proceed and do more of detailed analysis for the submission. It's up to you. Whatever the problem scope is there, try to go to the full lengths and try to explore. It will act as a best learning for you.
+
+140
+00:18:11.690 --> 00:18:20.540
+Bharathi Dasari: I'll start with the problem statement one, which is, like, classification. I'm taking employer attrition prediction as a problem statement, as an example, and I'm telling.
+
+141
+00:18:20.650 --> 00:18:23.179
+Bharathi Dasari: So, per the EDA,
+
+142
+00:18:23.440 --> 00:18:30.050
+Bharathi Dasari: For the dataset overview, try to see the heightâ€¦ shape of the data, try to get the necessary info.
+
+143
+00:18:30.700 --> 00:18:34.290
+Bharathi Dasari: And see if there are any missing values present in your dataset.
+
+144
+00:18:34.490 --> 00:18:38.440
+Bharathi Dasari: And the next thing is, like, try to see if there are duplicate values in your dataset.
+
+145
+00:18:40.100 --> 00:18:48.820
+Bharathi Dasari: And then try to get the target variable distribution. So, when I say target variable distribution, you can see if there is a class imbalance in your dataset.
+
+146
+00:18:49.710 --> 00:18:54.839
+Bharathi Dasari: You can go for the SNS count plot or the SNS plot to see how the target variable distribution is.
+
+147
+00:18:55.000 --> 00:18:55.770
+Bharathi Dasari: Right?
+
+148
+00:18:56.770 --> 00:19:04.730
+Bharathi Dasari: And then you guys can go for the correlation, how to say, like, how the variables are related, and how the variable is related to the target variable.
+
+149
+00:19:05.290 --> 00:19:10.450
+Bharathi Dasari: And then, you can do univariate, bivariate, and multivariate analysis for each of the features.
+
+150
+00:19:11.430 --> 00:19:17.090
+Bharathi Dasari: If there are any categorical variables, try to get analysis for the categorical variable separately.
+
+151
+00:19:17.320 --> 00:19:19.319
+Bharathi Dasari: You guys can go for crosstab.
+
+152
+00:19:19.740 --> 00:19:21.580
+Bharathi Dasari: Count plots and everything.
+
+153
+00:19:22.110 --> 00:19:26.530
+Bharathi Dasari: Try to understand the relationship between the categorical variables as well.
+
+154
+00:19:28.740 --> 00:19:33.530
+Bharathi Dasari: In addition to correlation, you guys can go for mutual information.
+
+155
+00:19:34.830 --> 00:19:37.709
+Bharathi Dasari: To understand what is the relationship between the variables.
+
+156
+00:19:38.080 --> 00:19:53.379
+Bharathi Dasari: So, these are the few sections that we are expecting from media. I know these are very basic, but, still try to get as many plots, as many relationship between the variables and the target variables. So, when you are explaining.
+
+157
+00:19:53.380 --> 00:20:01.580
+Bharathi Dasari: what in the EDA section, you guys need to add, what you have understood from the data, what the data is telling, what is the relationship between the variable and the target variable.
+
+158
+00:20:01.590 --> 00:20:05.349
+Bharathi Dasari: So, try to include all of these things in the markdown section.
+
+159
+00:20:09.210 --> 00:20:15.660
+Bharathi Dasari: So, when it comes to feature engineering, you can scan drive one-hot encoding and label encoding.
+
+160
+00:20:16.480 --> 00:20:23.090
+Bharathi Dasari: And if you think the range of the variables is very high, you can go for either standard scaling or min-max scaling.
+
+161
+00:20:24.220 --> 00:20:28.189
+Bharathi Dasari: If your data is permitting for you to transform features, go for that.
+
+162
+00:20:28.840 --> 00:20:42.310
+Bharathi Dasari: And if you think there is a nonlinear relationship in your data, like, if there is exponential data, if you find it in that way, try to go for log transformation. I think logistic regression models, these models you guys can try at that moment.
+
+163
+00:20:42.630 --> 00:20:44.839
+Bharathi Dasari: Which will be helpful for your learning.
+
+164
+00:20:46.750 --> 00:20:50.800
+Bharathi Dasari: Yeah, and then for feature selection, you guys can perform mutual information.
+
+165
+00:20:51.020 --> 00:20:54.150
+Bharathi Dasari: So far in April, when it comes to these techniques.
+
+166
+00:21:03.710 --> 00:21:05.569
+Bharathi Dasari: Okay, I'll proceed to the next step.
+
+167
+00:21:07.560 --> 00:21:14.350
+Bharathi Dasari: For the baseline models, for the classification problem, you can start with a dummy class fair or a logistic regression.
+
+168
+00:21:14.570 --> 00:21:33.130
+Bharathi Dasari: I would suggest go for dummy classware and logistic regulation. Compare the performances between both these two methods, and try to see what model is telling what, what can be improved, and then you guys can go for Edition 3 classifier and a random forest classifier as an upgrade, okay? So that will be very helpful.
+
+169
+00:21:33.790 --> 00:21:36.609
+Bharathi Dasari: Or the best is, you can go for XGB poster.
+
+170
+00:21:36.840 --> 00:21:39.449
+Bharathi Dasari: Even when you're building it.
+
+171
+00:21:39.970 --> 00:21:52.109
+Bharathi Dasari: dummy model, like a logistic regression model, as a baseline model, try to do the evaluation metrics there also. What is accuracy over there? Is your model addressing bias and variance? Like.
+
+172
+00:21:52.300 --> 00:22:09.680
+Bharathi Dasari: Are youâ€¦ do you guys need to do any adjustments to the variables? These things need to be very much detailedly coverâ€¦ these things need to be covered in detail when you're submitting for big break, okay? These, so, what decisions you are taking, how that particular session is impacting your model performance, okay?
+
+173
+00:22:09.770 --> 00:22:22.540
+Bharathi Dasari: So, let's say you have calculated, for a baseline model, you have calculated accuracy as a metric, let's say. You might have made some feature modification, or some log transformation, or some scaling. You canâ€¦
+
+174
+00:22:22.800 --> 00:22:25.799
+Bharathi Dasari: Calculate the accuracy again, saying that because of this.
+
+175
+00:22:25.910 --> 00:22:35.089
+Bharathi Dasari: The variable relationship has been changed with the target variable in this way. This is how it is impacting my model, okay? Picking those low variance models, this will help.
+
+176
+00:22:38.340 --> 00:22:41.080
+Bharathi Dasari: And then for hypermarameter tuning.
+
+177
+00:22:41.810 --> 00:22:50.849
+Bharathi Dasari: You can start with grid search, but I would say grid search will take a lot of time. So while doing research, try to define the parameters,
+
+178
+00:22:51.140 --> 00:23:03.180
+Bharathi Dasari: The intervals in a fixed way, and then the best way is based on optimization, and try to introduce earlier stopâ€¦ early stopping, but feel free to explore more methods, what is more suitable for your dataset.
+
+179
+00:23:04.480 --> 00:23:08.439
+was was: Now, ma'am, I used a grid search, but it took 5 minutes. Is that fine?
+
+180
+00:23:08.810 --> 00:23:18.280
+Bharathi Dasari: It is fine, whatever it is more suitable for you. I'm just saying, if your data set is very large, if it is taking more than 20, 30 minutes, then it will be a problem, right?
+
+181
+00:23:18.770 --> 00:23:20.630
+Bharathi Dasari: I'm just giving age cases.
+
+182
+00:23:20.810 --> 00:23:21.540
+Bharathi Dasari: Yep.
+
+183
+00:23:21.950 --> 00:23:22.480
+was was: Pokemon.
+
+184
+00:23:28.420 --> 00:23:29.520
+Bharathi Dasari: Soâ€¦
+
+185
+00:23:30.070 --> 00:23:41.080
+Bharathi Dasari: Okay, when you guys are doing a hyperparameter tuning, there are different, right, different, things that will be involved, like learning rate. What is the only, step length,
+
+186
+00:23:42.040 --> 00:23:46.079
+Bharathi Dasari: what is the step length you're gonna say? Okay, depth of the, like.
+
+187
+00:23:46.220 --> 00:23:59.510
+Bharathi Dasari: XGB, we are goingâ€¦ XGBoost, we are going the depth, the leaf and everything, right? For the three models. Explain whatâ€¦ how theâ€¦ when the depth is changing, your model performance is changing. So, basically, the curvesâ€¦
+
+188
+00:23:59.580 --> 00:24:15.459
+Bharathi Dasari: When you're changing the learning rate, how your model performance is changing. So, this is the best way to explore, hyperparameter tuning. I mean, like, when you're doing the grid search or the BO patient optimization, try to play around the learning rate, depth, and the size of the
+
+189
+00:24:15.930 --> 00:24:33.619
+Bharathi Dasari: And sample split. So this will help you, to pick, like, which hyperparameter tuning that will go for the model. And then, please try to also introduce the graphs, like, with respect to learning rate, how your model performance is changing, with respect to depth and sample length, like, how it is changing.
+
+190
+00:24:38.250 --> 00:24:44.539
+Bharathi Dasari: And I think that pretty much covers forâ€¦ problem statement. Like.
+
+191
+00:24:44.750 --> 00:24:49.600
+Bharathi Dasari: the steps of EDA, feature engineering, and,
+
+192
+00:24:49.860 --> 00:25:00.250
+Bharathi Dasari: However, whenever tuning remains same for all five problems. So, for regression problems, try to do residual plots. So, when you're going for baseline models.
+
+193
+00:25:00.470 --> 00:25:03.210
+Bharathi Dasari: That will give you some basic understanding.
+
+194
+00:25:09.550 --> 00:25:10.310
+Bharathi Dasari: Yeah.
+
+195
+00:25:11.050 --> 00:25:20.280
+Bharathi Dasari: So, for baseline models, when it comes to P2 problems, since it's a regression problem, start with a dummy regressor, and then go for linear regressor.
+
+196
+00:25:20.550 --> 00:25:23.549
+Bharathi Dasari: Again, ition 3, Random Forest, XGP.
+
+197
+00:25:23.650 --> 00:25:27.109
+Bharathi Dasari: Depending on what you want to do, how much deep you want to explore.
+
+198
+00:25:27.790 --> 00:25:30.299
+Bharathi Dasari: When coming to the hyperparameter tuning.
+
+199
+00:25:30.910 --> 00:25:44.069
+Bharathi Dasari: Number of estimators, max diff, sample split, and the learning rate. Again, try to plot graphs over here by changing, like, with respect to when you are changing the diff, how the model is performing, how the model performance is changing.
+
+200
+00:25:44.600 --> 00:25:45.410
+Bharathi Dasari: Okay?
+
+201
+00:25:47.620 --> 00:25:50.349
+Bharathi Dasari: For P3 clustering problem.
+
+202
+00:25:53.560 --> 00:25:56.339
+Bharathi Dasari: Yeah, soâ€¦
+
+203
+00:25:59.220 --> 00:26:16.120
+Bharathi Dasari: For clustering, you can go for principal component analysis, PCA, elbow method. These are additional analysis that need to be covered, along with a regular EDA, like, missing values, duplicate analysis, target variable relationship. Apart from this, you guys need to do PCA, elbow.
+
+204
+00:26:16.880 --> 00:26:18.920
+Bharathi Dasari: And for future engineering.
+
+205
+00:26:19.450 --> 00:26:26.489
+Bharathi Dasari: Yeah, standard scaling and coding, if your data hasâ€¦ need to have one-hot encoding or the label encoding.
+
+206
+00:26:28.530 --> 00:26:34.289
+Bharathi Dasari: And see what methods that you guys can apply for the feature selection for the problem statement P3.
+
+207
+00:26:34.410 --> 00:26:38.300
+Bharathi Dasari: You want to go for mutual information, RFE, it's up to you.
+
+208
+00:26:40.120 --> 00:26:44.100
+Bharathi Dasari: So, one thing to note for the clustering problem is scaling is mandated.
+
+209
+00:26:44.350 --> 00:26:58.589
+Bharathi Dasari: Right? So try, before proceeding, even for the baseline, try to do the scaling first, and then see how your models are performing, right? So it's not like scaling need to be performed on the final model. Scaling needs to be done uniformly.
+
+210
+00:26:58.980 --> 00:27:07.150
+Bharathi Dasari: across your data, even right before the baseline model. So that is something that needs to beâ€¦ that is expected from the pre-three problem statement.
+
+211
+00:27:09.020 --> 00:27:10.639
+Bharathi Dasari: So far, any questions?
+
+212
+00:27:19.020 --> 00:27:25.270
+Bharathi Dasari: Let me go for P4 and P5. So, both of them areâ€¦ okay.
+
+213
+00:27:25.680 --> 00:27:26.630
+Bharathi Dasari: ID?
+
+214
+00:27:27.550 --> 00:27:33.809
+Bharathi Dasari: cover the hyperparameter tuning for clustering, right? So, you can go for the elbow method.
+
+215
+00:27:34.460 --> 00:27:39.599
+Bharathi Dasari: Try to change if you are changing how the clusters are, say. Let's say you're going with two clusters, how you're
+
+216
+00:27:39.620 --> 00:27:47.910
+Bharathi Dasari: model is behaving, and if it is, like, more than two clusters, if it is, like, try to go up to 2210, and see how your model is performing.
+
+217
+00:27:47.910 --> 00:28:00.129
+Bharathi Dasari: Right? So, the baseline model, you can start with a KMIN clustering, and then you can go for agglomerative clustering, and the DBS scan. It's up to you. Like, how do you want to proceed, what you all want to compare?
+
+218
+00:28:02.070 --> 00:28:04.719
+Bharathi Dasari: That is all with respect to clustering problem.
+
+219
+00:28:05.640 --> 00:28:09.330
+Bharathi Dasari: And then we can go for P4 problem statement.
+
+220
+00:28:09.810 --> 00:28:13.850
+Bharathi Dasari: It's customer response tradition I'm taking, like, for any campaign.
+
+221
+00:28:14.080 --> 00:28:16.640
+Bharathi Dasari: So, the EDA will remain same.
+
+222
+00:28:17.730 --> 00:28:28.200
+Bharathi Dasari: Additional analysis that you guys can do is class imbalance. So let's say how the target variable is present, number of ones and zeros, and see what you can do over there for it.
+
+223
+00:28:29.060 --> 00:28:32.609
+Bharathi Dasari: Try to get the feature importance. So, okay.
+
+224
+00:28:33.130 --> 00:28:40.269
+Bharathi Dasari: Yeah. For each problem statement, try to get the feature importance. Either you can go for SHAP, you can go for
+
+225
+00:28:41.350 --> 00:29:00.510
+Bharathi Dasari: Random forest model, it's up to you. How do you want to go for the feature importance? Try to see, how the feature importance is changing with respect to each model. Let's say you went for a logistic regression model, you went with 5 features. What is the top feature that is playing addition in your logistic regression?
+
+226
+00:29:00.640 --> 00:29:05.539
+Bharathi Dasari: Right? And then try to see, you are building a HGB boost model.
+
+227
+00:29:05.540 --> 00:29:20.869
+Bharathi Dasari: And try to see what feature is coming in the top in deciding the model performance. And try to see the order of features, how it is changing with respect to model. Ideally, it should remain same, right? The percentage of contribution of a particular variable is going to change in the model.
+
+228
+00:29:21.070 --> 00:29:33.460
+Bharathi Dasari: And also, you guys can play around by adding more features. You can say, you can start with 5 features. If your model performance is somewhere around 80%, try to add 2 more features.
+
+229
+00:29:33.590 --> 00:29:41.770
+Bharathi Dasari: How your model performance is changing? Like, let's say initially it is 80%, is it improving to 82%, or is it dropping?
+
+230
+00:29:41.970 --> 00:29:43.890
+Bharathi Dasari: So this is something you guys can check.
+
+231
+00:29:44.270 --> 00:29:45.180
+Bharathi Dasari: Okay?
+
+232
+00:29:50.570 --> 00:29:54.950
+Bharathi Dasari: So, for hyperparameter tuning also, fix the params first.
+
+233
+00:29:55.810 --> 00:29:56.950
+Bharathi Dasari: I meanâ€¦
+
+234
+00:29:57.080 --> 00:30:07.180
+Bharathi Dasari: Okay, once you have done the hyperparameter tuning, fix your params first, and then go for the tuning of the models, whether it is going to be
+
+235
+00:30:07.910 --> 00:30:23.100
+Bharathi Dasari: dummy model, or whether it is going to be your random forest model, try to start with baseline, and thenâ€¦ so first it should be hyperparameter tuning, and then it will be going to your baseline model, and your XGB or random forest models.
+
+236
+00:30:26.150 --> 00:30:30.759
+Bharathi Dasari: Any questions on this section, or do you want me to cover it in a bit detailed, do let me know.
+
+237
+00:30:38.380 --> 00:30:39.290
+Bharathi Dasari: Okay.
+
+238
+00:30:48.320 --> 00:30:50.880
+Bharathi Dasari: Okay, let me go for P4 model.
+
+239
+00:30:56.570 --> 00:31:01.249
+Bharathi Dasari: Hmmâ€¦ So, apart from the regular EDA you guys cover, right?
+
+240
+00:31:02.250 --> 00:31:05.620
+Bharathi Dasari: You can do analysis.
+
+241
+00:31:06.330 --> 00:31:09.920
+Bharathi Dasari: Additional analysis, like campaign analysis and everything.
+
+242
+00:31:12.540 --> 00:31:20.530
+Bharathi Dasari: So, customer demographics, like, this is more of a response prediction problem to any campaign, right? Let's say if it's a banking data.
+
+243
+00:31:20.730 --> 00:31:30.960
+Bharathi Dasari: as an advanced DDA, like, the basic data checks, duplicates, missing values, once it is all done, try to get the campaign success analysis, like, how it is changing.
+
+244
+00:31:31.260 --> 00:31:42.899
+Bharathi Dasari: The customer demographics, how is the outcome with respect to previous campaign, and future importance? Like, what each feature is telling, and how each feature is going to contribute to your model.
+
+245
+00:31:45.260 --> 00:31:51.150
+Bharathi Dasari: Soâ€¦ If log transformation can be applied, try to do the log transformation.
+
+246
+00:31:52.630 --> 00:31:53.800
+Bharathi Dasari: Binning?
+
+247
+00:31:54.190 --> 00:32:01.350
+Bharathi Dasari: If possible, like, if that is going to bring model values to your model, or if it is giving better performance to the model.
+
+248
+00:32:01.860 --> 00:32:19.290
+Bharathi Dasari: So, you can start with a dummy classifier for ANN, because it's a classification problem. You can start with a logistic regression and a random forest classifier, and then you can go for a MLP classifier or a TensorFlow sequential ANN. It all depends on you, how to proceed.
+
+249
+00:32:21.510 --> 00:32:33.210
+Bharathi Dasari: For the hyperparameter tuning, again, grid search is the standard method you can follow. As long as your dataset is small, go for grid search. If your dataset size is very high, then you can go for a different method.
+
+250
+00:32:36.560 --> 00:32:37.320
+Bharathi Dasari: Hmmâ€¦
+
+251
+00:32:38.860 --> 00:32:48.810
+Bharathi Dasari: Yeah, so when you're doing the hyperparameter tuning for the ANN classification problem, try to play around with number of estimators, match depth, sample split, learning rate.
+
+252
+00:32:48.940 --> 00:32:54.429
+Bharathi Dasari: Okay, since, you will have hidden layers involved here, hidden layers, number of neurons.
+
+253
+00:32:54.660 --> 00:33:04.440
+Bharathi Dasari: path size, dropout, yeah. These are certain areas which you can play around with respect to hyperparameter tuning for the ANN problems.
+
+254
+00:33:08.040 --> 00:33:08.720
+Bharathi Dasari: Nope.
+
+255
+00:33:09.900 --> 00:33:10.680
+Bharathi Dasari: Yeah.
+
+256
+00:33:11.030 --> 00:33:19.000
+Bharathi Dasari: So, that pretty much covers everything for a P4 statement. So, any doubts on P4?
+
+257
+00:33:26.690 --> 00:33:27.580
+Bharathi Dasari: Okay.
+
+258
+00:33:28.290 --> 00:33:32.030
+Bharathi Dasari: Let me proceed for P5 statement, then.
+
+259
+00:33:40.190 --> 00:33:59.459
+Bharathi Dasari: Okay. So, okay. For ANN problems, try to introduce the learning curves in theâ€¦ inâ€¦ while you're working on theâ€¦ while you're submitting the Jupyter notebook. So, how your accuracy is looking, like, how your learning curves are looking. So, try to introduceâ€¦ add those learning curves for the ANN problem.
+
+260
+00:33:59.520 --> 00:34:01.920
+Bharathi Dasari: That will bring more value.
+
+261
+00:34:02.250 --> 00:34:03.510
+Bharathi Dasari: to your data.
+
+262
+00:34:05.640 --> 00:34:13.500
+Bharathi Dasari: Let me go for problem statement P5. It's, again, a classification methodology only. Soâ€¦ Other than the regular EDA,
+
+263
+00:34:15.210 --> 00:34:19.700
+Bharathi Dasari: Try to seeâ€¦ I'm like, classicâ€¦ class imbalance.
+
+264
+00:34:20.050 --> 00:34:25.289
+Bharathi Dasari: And try to get correlation values. These remain same for problem statement P4 and P5.
+
+265
+00:34:27.719 --> 00:34:34.379
+Bharathi Dasari: Yeah. Try to check in the feature engineering whether you guys need to do encoding, any min-max scaling.
+
+266
+00:34:34.650 --> 00:34:38.039
+Bharathi Dasari: If log transformation is required to the variables, try to do that.
+
+267
+00:34:38.630 --> 00:34:50.219
+Bharathi Dasari: For feature selection, you guys can go for mutual information, select KBIST. Again, baseline models will remain same. You can go for logistic regression random forest, and then you can go for MLP class for you.
+
+268
+00:34:51.580 --> 00:34:55.610
+Bharathi Dasari: Hyperparameter tuning will also remain same for problems written P4 and P5.
+
+269
+00:34:56.290 --> 00:35:02.739
+Bharathi Dasari: There is nothing specific, Kali, that need to be done for P5. Both remain same.
+
+270
+00:35:04.180 --> 00:35:15.500
+Bharathi Dasari: Since PFI is a quality classification problem, you can get the defect distribution analysis or something, depending on the problem statement you have chosen, get the distribution analysis.
+
+271
+00:35:17.270 --> 00:35:18.040
+Bharathi Dasari: Yeah.
+
+272
+00:35:18.210 --> 00:35:19.360
+Bharathi Dasari: I'mâ€¦
+
+273
+00:35:20.420 --> 00:35:27.650
+Bharathi Dasari: Validation curves, loss curves, error analysis, these are few things that can be included in P4 and P5 statement.
+
+274
+00:35:31.400 --> 00:35:32.989
+Bharathi Dasari: Any notes here?
+
+275
+00:35:41.460 --> 00:35:42.330
+Bharathi Dasari: Okay?
+
+276
+00:35:42.980 --> 00:35:48.670
+Bharathi Dasari: Yeah, so these are the few areas that need to be covered for your problem statements in VQA submissions.
+
+277
+00:35:48.710 --> 00:36:04.120
+Bharathi Dasari: So, please try to defend separate sections when you're doing EDA, feature engineering, and everything, and include every decision you have taken in the markdown, I'm liking the section in the comments, and also add the comments what your dataset is telling from that.
+
+278
+00:36:04.350 --> 00:36:20.589
+Bharathi Dasari: That is something very important. Basing on these, we will be evaluating your, notebook. So, instead of commands and values, we will also see how you are taking a particular destination, and how your destination is impacting the output. These are few things we will check.
+
+279
+00:36:28.950 --> 00:36:30.830
+Bharathi Dasari: Any other questions you guys have?
+
+280
+00:36:37.180 --> 00:36:37.950
+Bharathi Dasari: Okay.
+
+281
+00:36:42.860 --> 00:36:44.600
+Bharathi Dasari: Let meâ€¦
+
+282
+00:36:48.220 --> 00:36:51.570
+Bharathi Dasari: tell you these few things. Soâ€¦
+
+283
+00:36:51.680 --> 00:36:57.140
+Bharathi Dasari: You guys have done hyperparameter tuning before in your previous exercises?
+
+284
+00:36:59.690 --> 00:37:02.799
+Bharathi Dasari: for ANN or EPICS projects.
+
+285
+00:37:04.110 --> 00:37:08.139
+Bharathi Dasari: Okay? How about feature importance? SHAP analysis.
+
+286
+00:37:13.420 --> 00:37:17.719
+Bharathi Dasari: Okay, so Sharp is something you guys have done before?
+
+287
+00:37:18.000 --> 00:37:19.150
+Bharathi Dasari: Hmmâ€¦
+
+288
+00:37:23.950 --> 00:37:25.090
+Bharathi Dasari: Okay.
+
+289
+00:37:25.250 --> 00:37:28.319
+Bharathi Dasari: So, feature scaling you might have done.
+
+290
+00:37:29.240 --> 00:37:32.430
+Bharathi Dasari: Okay, encoding mightâ€¦ you guys might have already done.
+
+291
+00:37:38.110 --> 00:37:46.899
+Bharathi Dasari: Soâ€¦ okay, I will tell you this as well. For hyperparameter tuning, okay,
+
+292
+00:37:47.180 --> 00:37:51.650
+Bharathi Dasari: On what dataset you are doing hyperparameter tuning? Like, how are you deciding that?
+
+293
+00:37:58.030 --> 00:38:01.529
+Bharathi Dasari: Like, basically, how are you guys splitting your dataset forâ€¦
+
+294
+00:38:02.270 --> 00:38:05.099
+Bharathi Dasari: How are you deciding, splitting your data set?
+
+295
+00:38:06.060 --> 00:38:08.720
+Bharathi Dasari: While constructing models, anyone?
+
+296
+00:38:12.900 --> 00:38:16.189
+was was: 80% training, 20% testing.
+
+297
+00:38:17.020 --> 00:38:24.330
+Bharathi Dasari: Okay, thenâ€¦ Where you are doing the hyperparameter tuning, on which dataset.
+
+298
+00:38:25.500 --> 00:38:27.250
+was was: Problem statement, too.
+
+299
+00:38:28.890 --> 00:38:29.730
+Bharathi Dasari: No, no, no.
+
+300
+00:38:30.080 --> 00:38:40.169
+Bharathi Dasari: Okay, are youâ€¦ where you're performing? Are you performing wellâ€¦ I mean, like, hyperparameter tuning on the whole data set, or are you performing it only on the train data set?
+
+301
+00:38:42.340 --> 00:38:44.010
+was was: On the train dataset.
+
+302
+00:38:45.290 --> 00:38:45.940
+Bharathi Dasari: Okay.
+
+303
+00:38:46.480 --> 00:38:47.650
+Bharathi Dasari: Soâ€¦
+
+304
+00:38:48.810 --> 00:38:56.129
+Bharathi Dasari: Okay, try to read a bit about it. Basically, your data set needs to be divided into 3 parts.
+
+305
+00:38:56.930 --> 00:39:02.300
+Bharathi Dasari: One is train, second is test, and third is validation. So.
+
+306
+00:39:02.530 --> 00:39:16.549
+Bharathi Dasari: Again, you're talking about data leakage before, right? This will happen again. So, what, trained data is something you're going to use to build your model. Test is somethingâ€¦ test dataset is something where you're going to test on it.
+
+307
+00:39:16.610 --> 00:39:33.230
+Bharathi Dasari: This validation dataset, right, you are going to tune your hyperparameters using this validation dataset. It will give you the best params, and these parameters, you need to apply it on the trained model data. Using the trained model, you need to perform it on the test.
+
+308
+00:39:33.230 --> 00:39:41.029
+Bharathi Dasari: So, hyperparameter tuning has to be done separately, all together on a different data set. It shouldn't be done on a whole data.
+
+309
+00:39:41.360 --> 00:39:49.040
+Bharathi Dasari: Or it shouldn't be done separately on the train data. So try to split your data between 60-20-20, or 70-10-20.
+
+310
+00:39:49.600 --> 00:39:51.309
+Bharathi Dasari: Yeah, this should work.
+
+311
+00:39:55.720 --> 00:39:56.330
+Bharathi Dasari: Iâ€¦
+
+312
+00:39:56.330 --> 00:40:02.699
+was was: Can we take the variables from the random forest, like the top 3 variables it has selected?
+
+313
+00:40:03.100 --> 00:40:05.360
+was was: For, hyperparameter tuning.
+
+314
+00:40:08.030 --> 00:40:08.660
+Bharathi Dasari: Okay.
+
+315
+00:40:08.770 --> 00:40:23.939
+Bharathi Dasari: So, remember, let's say your train data has 5 variables, your validation data should also have 5 variables, your test data should also have 5 variables. You were never supposed to change the variable list anywhere from the dataset when you're building a model.
+
+316
+00:40:27.030 --> 00:40:33.650
+was was: No, I didn't change the variable list. I'm asking, from the random forest, the important features.
+
+317
+00:40:33.820 --> 00:40:40.459
+was was: It has selected 15 important features, so can I take the top 3 important features for hypermet tuning?
+
+318
+00:40:41.530 --> 00:40:50.279
+Bharathi Dasari: Yeah, that's what I'm saying. If you are planning to train your model on 15 variables, you need to do the hyperparameter tuning on 15 variables only.
+
+319
+00:40:51.950 --> 00:41:01.020
+Bharathi Dasari: Okay, what hyperparameter tuning is going to tell us, it will give you the parameters for the given dataset, for the given variables, and
+
+320
+00:41:01.280 --> 00:41:10.590
+Bharathi Dasari: Keeping in note the relationship between the variables and the target variables remaining same, which parameter is going to give you the best result?
+
+321
+00:41:10.870 --> 00:41:14.550
+Bharathi Dasari: That is what hyperparameter tuning is going to tell.
+
+322
+00:41:14.750 --> 00:41:22.260
+Bharathi Dasari: That particular variables you will take, and you will use on your train dataset to get the best model performance.
+
+323
+00:41:24.440 --> 00:41:25.040
+was was: Okay.
+
+324
+00:41:25.040 --> 00:41:25.780
+Bharathi Dasari: Okay.
+
+325
+00:41:26.330 --> 00:41:38.520
+Bharathi Dasari: So, maybe you can see, maybe I can give you an example. You might have seen decision tree models before, right? Your data will split into number of trees.
+
+326
+00:41:38.970 --> 00:41:52.530
+Bharathi Dasari: So, the way how it splits into trees, it will go to the extreme end, it will go from tree number 1 to tree number 100, and tree number 200. What happens is, at one stage, you areâ€¦
+
+327
+00:41:52.650 --> 00:42:05.180
+Bharathi Dasari: model is going to perform better. But what happens if the model didn't stop over there, if it goes further down, overfitting will happen. You don't want your model to be overfitting or overly tuned.
+
+328
+00:42:05.180 --> 00:42:22.600
+Bharathi Dasari: That's where you will stop it, right? It will give you what is the best 3 length it should have, what is the depth you can have, what is the learning rate. Is your model performing better at a particular running rate? These things will be told by the hyperparameter showing. That is why it is important.
+
+329
+00:42:22.620 --> 00:42:27.720
+Bharathi Dasari: Soâ€¦ I mean, like, you can also experiment this for your learning purpose.
+
+330
+00:42:27.850 --> 00:42:43.060
+Bharathi Dasari: Try to take 2 or 3 different sets of hyperparameters, different learning rate values and different tree sizes and everything. Your modelâ€¦ Model 1 will be giving you 80%, and Model 2 will be giving you 82%, just because you didn't use the right hyperparameters.
+
+331
+00:42:43.520 --> 00:42:44.989
+Bharathi Dasari: So this happens.
+
+332
+00:42:47.730 --> 00:42:48.510
+was was: Okay.
+
+333
+00:42:51.820 --> 00:42:54.310
+Bharathi Dasari: Okay, any questions?
+
+334
+00:43:01.910 --> 00:43:09.619
+Bharathi Dasari: Ohâ€¦ You guys can apply regularization techniques as well for your features.
+
+335
+00:43:15.260 --> 00:43:21.910
+Bharathi Dasari: Let me see whatâ€¦ All I can include, or what all I can tell you for your data.
+
+336
+00:43:22.820 --> 00:43:24.900
+Bharathi Dasari: Okay, soâ€¦
+
+337
+00:43:24.970 --> 00:43:32.319
+Bharathi Dasari: few datasets, what I understood, you guys are seeing class imbalance in your dataset, right? Let's say you,
+
+338
+00:43:32.380 --> 00:43:42.430
+Bharathi Dasari: the data slate is splitting, out of 100%, if your dependent variable wants are only 15 or 20%, I would rather say your data is slightly imbalanced, right?
+
+339
+00:43:42.430 --> 00:43:53.990
+Bharathi Dasari: Then, when you're picking a randomâ€¦ splitting your data between train, test, and validation, your train might have only 5% of the dependent variable, like, 5% of ones. Your test might have high.
+
+340
+00:43:54.380 --> 00:44:00.630
+Bharathi Dasari: So, how do you avert this, right? Try to take a sample and try to,
+
+341
+00:44:01.050 --> 00:44:14.839
+Bharathi Dasari: Try to filter the dataset in such a way that the class imbalance, like, let's say our target variable is 5% present, 5% ones, and 95% zeros, try to maintain the same relationship in trend, validation, and test.
+
+342
+00:44:15.390 --> 00:44:24.119
+Bharathi Dasari: Okay? If you still think that is not possible, if your model is not going to predict your ones or zeros properly, what you can do isâ€¦
+
+343
+00:44:24.350 --> 00:44:26.020
+Bharathi Dasari: Try to do downsampling.
+
+344
+00:44:26.600 --> 00:44:28.520
+Bharathi Dasari: Keep you once as it is.
+
+345
+00:44:29.560 --> 00:44:38.050
+Bharathi Dasari: reduce the number of zeros in your dataset. So, initially, it is 95% and 5%, right? Now, it will be 60-40%.
+
+346
+00:44:40.210 --> 00:44:44.259
+Bharathi Dasari: Whatever factor you are using for the downsampling.
+
+347
+00:44:44.370 --> 00:44:49.780
+Bharathi Dasari: While you're evaluating the model, you need to add that same multiplying factor
+
+348
+00:44:49.910 --> 00:45:00.119
+Bharathi Dasari: while doing the model performance. Otherwise, the numbers are going to tell a whole different story. So keep this in mind if you are going to introduce any imbalanced techniques in your dataset.
+
+349
+00:45:01.000 --> 00:45:01.710
+Bharathi Dasari: Okay?
+
+350
+00:45:08.070 --> 00:45:18.559
+Bharathi Dasari: Can anyone else respond? How your data sets are looking? Are you guys facing class imbalance? What are the techniques that you're planning to do, propose in the week 5 analysis?
+
+351
+00:45:30.020 --> 00:45:38.739
+Bharathi Dasari: Okay, so I'm assuming all of your datasets are completely present with a proper healthy relationships, no class imbalance.
+
+352
+00:45:44.550 --> 00:45:48.049
+Bharathi Dasari: Anisha, do youâ€¦ how is your dataset looking, Anisha?
+
+353
+00:46:00.040 --> 00:46:00.940
+Bharathi Dasari: Okay.
+
+354
+00:46:11.750 --> 00:46:16.270
+Bharathi Dasari: Okay, so let me see what all that can be covered.
+
+355
+00:46:17.200 --> 00:46:18.050
+Bharathi Dasari: Okay.
+
+356
+00:46:19.370 --> 00:46:28.460
+Bharathi Dasari: If you're having a class imbalance, instead of directly going for accuracy, you can go for, F1 score.
+
+357
+00:46:28.680 --> 00:46:44.250
+Bharathi Dasari: See whether your model, what your model is going to do. Do you need more false positives, or do you want to focus on more false negatives? Try to check that. Try to get the confusion matrix from your, data set while you're working on the model. That will help you.
+
+358
+00:46:44.990 --> 00:46:50.549
+Bharathi Dasari: And also explain the confusion matrix when you're preparing theâ€¦ when you're submitting the week file.
+
+359
+00:46:53.350 --> 00:46:59.910
+Bharathi Dasari: And for P2 problem statement, you can add seasonality trends and product category analysis.
+
+360
+00:47:02.550 --> 00:47:06.750
+Bharathi Dasari: Hmmâ€¦ Okayâ€¦
+
+361
+00:47:12.770 --> 00:47:14.760
+Bharathi Dasari: No more questions, yes sir.
+
+362
+00:47:23.360 --> 00:47:24.130
+Bharathi Dasari: Okay.
+
+363
+00:47:28.120 --> 00:47:43.289
+Bharathi Dasari: Okay. So, Vandita, since we are doing hyperparameter tuning, we need a validation dataset. Irrespective of, this epics project too, everyone needs a validation dataset, irrespective of whatever problem statement you are choosing, because you are doing hyperparameter tuning.
+
+364
+00:47:44.210 --> 00:48:02.170
+Bharathi Dasari: So, try to read a bit about it, it will give you some clarity, why we areâ€¦ why do we need to have a separate dataset whole together, and what hyperparameter is going to add valueâ€¦ where it is going to add value to your model. Try to read a bit about it. It saysâ€¦ yeah, it will be easy access only.
+
+365
+00:48:15.030 --> 00:48:24.730
+Bharathi Dasari: Soâ€¦ Try to apply the regularization techniques, L2 techniques for the P4 and P5 statement.
+
+366
+00:48:25.080 --> 00:48:31.539
+Bharathi Dasari: if you see that it's goingâ€¦ I mean, when deciding for the features, that will bringâ€¦ add in some value.
+
+367
+00:48:33.070 --> 00:48:33.930
+Bharathi Dasari: Yeah.
+
+368
+00:48:34.200 --> 00:48:36.810
+Bharathi Dasari: Any questions, guys?
+
+369
+00:48:36.980 --> 00:48:43.500
+Bharathi Dasari: on the submission formats or the timelines. Please do note that we are not going to extend the submission deadlines.
+
+370
+00:48:43.600 --> 00:49:03.090
+Bharathi Dasari: So, keep that in mind, and try to only submit the Jupyter notebook, along with the Word file, not in GIF files, in separate. And the format of how the file needs to be saved, that is being sharedâ€¦ that was shared by Ashish in the Lumen portal, please follow that, your role number, your name, and then the Python file, okay?
+
+371
+00:49:08.430 --> 00:49:09.410
+Jaimin Ganatra: Sure.
+
+372
+00:49:13.340 --> 00:49:14.310
+Bharathi Dasari: Soâ€¦
+
+373
+00:49:21.330 --> 00:49:26.970
+Jaimin Ganatra: Bhaki just wanted to confirm one thing. There is no, restriction on the number of pages for the dot file, right?
+
+374
+00:49:28.720 --> 00:49:30.880
+Bharathi Dasari: So, ideally, two pages would be better.
+
+375
+00:49:32.680 --> 00:49:41.680
+Jaimin Ganatra: But since we will be doing, stuff in so many, data preparation, EDF, feature engineering and stuff, soâ€¦ it will be long.
+
+376
+00:49:41.680 --> 00:49:47.639
+Bharathi Dasari: that needâ€¦ That need to be covered in the Jupyter Notebook. That is not required in the doc file.
+
+377
+00:49:49.130 --> 00:49:49.840
+Jaimin Ganatra: Okay.
+
+378
+00:49:50.950 --> 00:50:02.590
+Bharathi Dasari: Okay, so doc file is going to be your project proposal, what you have submitted in the week 2. The rest of the analysis, the EDA, data engineering, and everything. Everything that need to be included in the Python file only.
+
+379
+00:50:04.680 --> 00:50:07.040
+Jaimin Ganatra: So essentially, it should not be repetitive, right?
+
+380
+00:50:10.090 --> 00:50:10.960
+Jaimin Ganatra: Okay.
+
+381
+00:50:27.500 --> 00:50:29.959
+Bharathi Dasari: So, is Ahmad in class today?
+
+382
+00:50:34.390 --> 00:50:35.120
+Bharathi Dasari: Okay.
+
+383
+00:50:35.840 --> 00:50:38.469
+Bharathi Dasari: So, any questions, guys? Any other questions you guys have?
+
+384
+00:50:39.950 --> 00:50:40.740
+Bharathi Dasari: Okay.
+
+385
+00:50:41.900 --> 00:50:51.409
+Bharathi Dasari: You guys can drop off if you don't have any more questions. People who have specific doubts, very problem-specific, you guys can stay on call and you can get it clear.
+
+386
+00:50:51.410 --> 00:51:03.150
+Bharathi Dasari: I have pretty much covered, what need to be done for B5. Try to submit it before the deadline. If you guys have any questions, post it in the Lumen portal. Me and Ashish will be actively replying this week.
+
+387
+00:51:03.270 --> 00:51:04.100
+Bharathi Dasari: Okay.
+
+388
+00:51:06.920 --> 00:51:07.630
+Bharathi Dasari: Yeah.
+
+389
+00:51:21.420 --> 00:51:27.640
+Jaimin Ganatra: But can you confirm again, what is to be, in the .file?
+
+390
+00:51:27.750 --> 00:51:35.679
+Jaimin Ganatra: Because last time, I believe I added most orâ€¦ all the explanation in the doc file also, so I don't want to make the mistake again.
+
+391
+00:51:36.310 --> 00:51:42.130
+Bharathi Dasari: Okay, soâ€¦ Okay.
+
+392
+00:51:43.070 --> 00:51:53.119
+Bharathi Dasari: the explanation what you have kept in week 2, that will remain same, right? You will be mentioning your project proposal, your target variable, theâ€¦
+
+393
+00:51:53.230 --> 00:52:09.299
+Bharathi Dasari: models we want to cover, the features that are going to be done, the techniques we are going to follow. These details will be present in the doc file, but the decisions you are taking, how we are splitting your data, what your data set is telling, all these details need to be present in the Jupyter Notebook.
+
+394
+00:52:10.280 --> 00:52:10.920
+Jaimin Ganatra: Okay.
+
+395
+00:52:12.050 --> 00:52:16.159
+Bharathi Dasari: Separately in the markdown section, yeah. This is the format we are expecting.
+
+396
+00:52:16.910 --> 00:52:23.329
+Jaimin Ganatra: Okay. So, should I delete the previous, additional information that was added in the .file, or should I keep it as it is?
+
+397
+00:52:24.170 --> 00:52:28.129
+Bharathi Dasari: When you say additional information, what additional information you are referring to?
+
+398
+00:52:28.130 --> 00:52:37.260
+Jaimin Ganatra: So, essentially, my dot file was about 6 pages last time, wherein I had added some of the explanation in the dot file also, apart from the Python that I already done.
+
+399
+00:52:38.420 --> 00:52:58.159
+Bharathi Dasari: Okay, explanation and all, if you are covering in theâ€¦ okay. So, for week 2 submission, you guys have only added theâ€¦ in the Jupyter Notebook, how to read the data, right? What is the data source, the Kagil file and everything, right? So, this time, you are goingâ€¦ you are going to do everything in the Jupyter Notebook. So, that much of a detail analysis is not required.
+
+400
+00:52:58.190 --> 00:53:01.150
+Bharathi Dasari: To be kept in the week two. I mean, in the dock fight, yeah.
+
+401
+00:53:01.770 --> 00:53:02.520
+Jaimin Ganatra: Okay.
+
+402
+00:53:03.210 --> 00:53:07.800
+Jaimin Ganatra: So, should I team the .file as it is, right? Orâ€¦ None.
+
+403
+00:53:07.800 --> 00:53:14.079
+Bharathi Dasari: For this submission, keep it as it is. For final submission, if there are changes, we will let you know.
+
+404
+00:53:14.680 --> 00:53:15.380
+Jaimin Ganatra: Oh, okay.
+
+405
+00:53:16.150 --> 00:53:16.650
+Bharathi Dasari: Yeah.
+
+406
+00:53:17.120 --> 00:53:20.169
+Jaimin Ganatra: And, will we get any feedback for the last submission?
+
+407
+00:53:20.910 --> 00:53:27.380
+Bharathi Dasari: Yes, I think you can expect the subâ€¦ I mean, like, you can expect it by tomorrow. That will be reflected in your portals.
+
+408
+00:53:28.290 --> 00:53:29.619
+Jaimin Ganatra: Okay, thank you.
+
+409
+00:53:30.690 --> 00:53:31.440
+Bharathi Dasari: Thank you.
+
+410
+00:53:38.190 --> 00:53:41.280
+Bharathi Dasari: Any other questions you guys have? Komal, Sindho?
+
+411
+00:53:45.000 --> 00:53:46.110
+Bharathi Dasari: Mandito.
+
+412
+00:53:51.130 --> 00:53:51.930
+Bharathi Dasari: Okay.
+
+413
+00:54:00.130 --> 00:54:08.859
+Bharathi Dasari: Okay, also, at the section, what are things that are pending for the final submission? Try to include that in the Jupyter Notebook.
+
+414
+00:54:11.860 --> 00:54:18.529
+Bharathi Dasari: Yeah. Yeah, that's pretty much from me. No more things that need.
+
+415
+00:54:20.510 --> 00:54:27.079
+Bharathi Dasari: Nothing's more needed from my end. If you guys have any questions, do ask me in the call. Otherwise, you guys are good to go.
+
+416
+00:54:29.770 --> 00:54:31.050
+Bharathi Dasari: Thank you, Sindho.
+
+417
+00:54:48.910 --> 00:54:55.329
+Bharathi Dasari: I'm ending the call from my end. I'm hoping no other people have any questions.
+
+418
+00:55:03.090 --> 00:55:03.920
+Bharathi Dasari: Okay.
+
+419
+00:55:13.820 --> 00:55:16.459
+Bharathi Dasari: Thank you, then. See you next week.

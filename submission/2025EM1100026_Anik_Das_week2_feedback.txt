@@ -1,0 +1,32 @@
+Advanced Apex Project II - Week 2 Feedback
+
+Student Name: Anik Das
+BITS ID: 2025EM1100026
+
+Grade: EXCELLENT
+
+Overall Feedback:
+Solid submission with a strong proposed workflow that anchors the overall quality. The gap in problem framing specificity, dataset observation depth, notebook completeness is considered minor given the structured approach and clear objectives. Prioritize completing the notebook and adding 2-3 key feature insights for Week-5.
+
+Strengths:
+- Clear problem statement with retail-specific business goals
+- Comprehensive dataset understanding including class imbalance handling
+- Logical workflow with feature engineering innovations like IncomeToRoleRatio
+
+Detailed Criterion-wise Evaluation:
+Project Direction:
+EXCELLENT: EXCELLENT: Clear business goals and retail-specific problem statement with actionable objectives for staff retention analysis
+Data Understanding:
+EXCELLENT: EXCELLENT: Accurate identification of class imbalance (12.7:1) and proper handling of missing values, but missing feature correlation observations
+Analysis Workflow:
+EXCELLENT: EXCELLENT: Logical workflow with innovative feature engineering (IncomeToRoleRatio, TenureBand) and appropriate handling of class imbalance through SMOTE/class_weight
+Documentation:
+EXCELLENT: EXCELLENT: Well-structured notebook with markdown sections, but incomplete feature engineering section and missing specific model selections
+
+Areas to Improve:
+- Complete the notebook section on feature engineering (current section cuts off mid-sentence)
+- Add 2-3 key feature observations in dataset section (e.g., correlation between Years_at_Company and Attrition_Status)
+- Specify exact models to compare (e.g., Logistic Regression, Random Forest, XGBoost)
+
+Grade Rationale (Summary):
+The submission demonstrates excellent problem understanding and workflow planning, but the notebook is incomplete and lacks specific model selections. Dataset understanding is thorough with proper handling of class imbalance and missing values.

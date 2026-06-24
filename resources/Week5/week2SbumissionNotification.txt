@@ -1,0 +1,33 @@
+Dear Learners,
+
+Week-5 submissions are open from June 19 to June 26. Please read the following carefully before uploading.
+You need to upload two files — a progress report (.docx) and your working notebook (.ipynb). Use the same templates that were shared during Week-2. Upload both files directly to the portal. Do not zip them. Several students submitted zip files during Week-2 and those cause issues during evaluation. Upload each file individually.
+
+File naming
+
+Name your files exactly as follows:
+
+RollNumber_Name_Week5_Report.docx
+RollNumber_Name_Week5_Notebook.ipynb
+
+ 
+
+Sections to cover in your report
+
+Your Week-5 submission should cover all of the following:
+
+Data Preparation — preprocessing, transformations, scaling, and cleaning
+EDA — visualizations and observations
+Feature Engineering — describe features created, or justify if not required
+Baseline Model — implement and explain your baseline model
+Initial Model Comparison — compare with at least one additional model
+Preliminary Hyperparameter Tuning — tuning attempts and observations
+Preliminary Evaluation — initial metrics and interpretation
+Planned Improvements — remaining work before the final submission
+A Word document with the expected sections is attached below for your reference.
+
+Reach out if you have any questions.
+
+Thank you
+
+Attachment(s)

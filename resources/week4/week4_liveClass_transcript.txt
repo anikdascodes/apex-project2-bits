@@ -1,0 +1,1369 @@
+WEBVTT
+
+1
+00:00:19.040 --> 00:00:22.420
+Bharathi Dasari: Let's just give you a minute for others to join, and then we canâ€¦
+
+2
+00:01:06.650 --> 00:01:08.689
+Bharathi Dasari: And let's get started.
+
+3
+00:01:10.950 --> 00:01:15.410
+Bharathi Dasari: I'll start by saying, like, we have a submission deadline, like.
+
+4
+00:01:15.620 --> 00:01:20.630
+Bharathi Dasari: Our midweek submission is going to open next week, which is on 19th.
+
+5
+00:01:20.860 --> 00:01:33.930
+Bharathi Dasari: Soâ€¦ and the portal is going to be closed again on 26. So, next week is the only week, if you have any doubts with respect to EDA baseline model submission or evaluation metrics,
+
+6
+00:01:34.170 --> 00:01:38.820
+Bharathi Dasari: So, please try to do it by next week, so that I can help you
+
+7
+00:01:38.940 --> 00:01:41.599
+Bharathi Dasari: With the potions in the class.
+
+8
+00:01:45.890 --> 00:01:48.899
+was was: Ma'am, the next stage is to do EDA, right?
+
+9
+00:01:49.820 --> 00:01:57.289
+Bharathi Dasari: No, Waz, so the expectations for the midweek submission is baseline model, till baseline model.
+
+10
+00:01:57.740 --> 00:02:04.540
+Bharathi Dasari: So, EDA has to be completed, feature engineering has to be completed, and then, baseline models were supposed to be made.
+
+11
+00:02:06.690 --> 00:02:09.930
+was was: And then the submission is 9th of, next month.
+
+12
+00:02:13.870 --> 00:02:17.160
+Bharathi Dasari: So, I'm talking about the midweek, which is next week, 19th.
+
+13
+00:02:18.880 --> 00:02:20.110
+was was: 19th, okay.
+
+14
+00:02:20.560 --> 00:02:31.330
+Bharathi Dasari: Yeah, 19. So, next week, the portal will open, and, like, once the portal is open, we have only one day, like, in case if you guys got stuck anywhere to help, and then it will close on 20â€¦
+
+15
+00:02:31.440 --> 00:02:35.720
+Bharathi Dasari: 26th before itself, so we might not have time to discuss on 26.
+
+16
+00:02:35.840 --> 00:02:38.249
+Bharathi Dasari: So I'm just giving a heads up on you guys.
+
+17
+00:02:39.260 --> 00:02:54.199
+Bharathi Dasari: So the format of submissions will be posted by Ashish in the portal. Like, he will make an announcement. So this is time to avoid confusion of, like, whether the talk will need to be submitted, what are the formats that need to be submitted. Ashish will post an announcement.
+
+18
+00:02:54.200 --> 00:03:00.790
+Bharathi Dasari: what things are required. We will also mention that, that need to be completed.
+
+19
+00:03:01.270 --> 00:03:02.500
+Bharathi Dasari: for the submission.
+
+20
+00:03:04.730 --> 00:03:14.469
+Bharathi Dasari: So, meanwhile, if people have performed ADA, and they have started working on the problem statements, if you guys got stuck anywhere, do let me know, I will help you with that now.
+
+21
+00:03:39.430 --> 00:03:48.990
+Bharathi Dasari: I'm assuming there are not many questions from the students. So, I will tell what all area of aspects that can be covered with respect to each problem statement.
+
+22
+00:03:49.150 --> 00:04:00.639
+Bharathi Dasari: So, most of you are aware that till EDA, like, what are the steps that can be done, but I will slightly add what additional things that can be checked, because you guys are going to build baseline model this time.
+
+23
+00:04:00.690 --> 00:04:09.960
+Bharathi Dasari: Compared to previous EPICS project submissions. So, I will start problem by problem. If you guys got any thoughts, you can stop me in between so that I can explain the sale for you.
+
+24
+00:04:11.120 --> 00:04:15.399
+Bharathi Dasari: So for problem P1 is the employer attrition prediction, right?
+
+25
+00:04:15.570 --> 00:04:20.860
+Bharathi Dasari: Any industry you guys are taking, you will be doing the
+
+26
+00:04:21.060 --> 00:04:27.420
+Bharathi Dasari: EDA exploratory data analysis, the data cleaning, and everything. Apart from that, you guys can do
+
+27
+00:04:27.760 --> 00:04:31.000
+Bharathi Dasari: T-square test, and over mutual information.
+
+28
+00:04:31.120 --> 00:04:32.949
+Bharathi Dasari: To analyze the features.
+
+29
+00:04:33.340 --> 00:04:42.199
+Bharathi Dasari: To understand the relationship between the features. And if your data is highly imbalanced, you guys need to do the class imbalance tests as well.
+
+30
+00:04:42.840 --> 00:04:48.869
+Bharathi Dasari: Try to generate the feature importance hub itself, like using random forest methods.
+
+31
+00:04:49.270 --> 00:04:57.180
+Bharathi Dasari: And SHAP analysis is optimal, I would rather not say. But you can try it once you have built your final model.
+
+32
+00:04:57.180 --> 00:05:12.009
+Bharathi Dasari: So, you will understand what is the importance of each feature, and how it is contributing to your model. You will understand that through your SHAP analysis. So, try these things. Like, ANOVA is important, mutual information is something you guys can try.
+
+33
+00:05:12.420 --> 00:05:24.110
+Bharathi Dasari: Basing on the class imbalance, you can see, like, how it isâ€¦ how do you want to go forward? Like, you want to do some stratified sampling techniques, or you want to do, downsampling.
+
+34
+00:05:24.390 --> 00:05:28.239
+Bharathi Dasari: snow analysis. Whatever it is comfortable for you, you guys can go with that.
+
+35
+00:05:29.360 --> 00:05:39.120
+Bharathi Dasari: And for baseline and experimentation problem, since it's a prediction problem, you can start with a dummy class where someâ€¦
+
+36
+00:05:39.120 --> 00:05:53.790
+Bharathi Dasari: Logistic regression model is something I would say, rather good, and then you can go forward with XGBoost model, start with logistic regression audition 3, and then go forward with the XGBoost. That's a very good way of starting for a prediction problem.
+
+37
+00:05:55.230 --> 00:06:04.110
+Bharathi Dasari: So, if your data is highly imbalanced, like 5% to 95% or something like that, then try doing cross-core validation.
+
+38
+00:06:04.970 --> 00:06:14.089
+Bharathi Dasari: And also, if your data is imbalanced, even 20% ofâ€¦ I mean, like, 20% is 01s, and 80% is your zeros.
+
+39
+00:06:14.240 --> 00:06:18.949
+Bharathi Dasari: Go for confusion matrix, because not every time,
+
+40
+00:06:19.000 --> 00:06:35.869
+Bharathi Dasari: the, like, try to see the importance of false positives and false negatives in your dataset. That will be the right predictor metric, instead of directly going for accuracy, okay? So that is something very important. And also try to understand the model explainability as well.
+
+41
+00:06:40.800 --> 00:06:43.130
+Bharathi Dasari: So far, any questions for P1?
+
+42
+00:06:43.670 --> 00:06:44.980
+Bharathi Dasari: problem statement.
+
+43
+00:06:51.550 --> 00:06:56.219
+Agalyashree R: What was a mutual, thing that you told, ma'am? Sorry, I missed it.
+
+44
+00:06:56.220 --> 00:06:59.470
+Bharathi Dasari: Yeah, I was talking about mutual information.
+
+45
+00:06:59.600 --> 00:07:00.260
+Agalyashree R: Okay.
+
+46
+00:07:00.950 --> 00:07:01.490
+Bharathi Dasari: in.
+
+47
+00:07:02.690 --> 00:07:12.820
+Bharathi Dasari: So, you can try mutual information or ANOWA. I mean, like, basically, these are one of the techniques, whatever you feel more feasible and close to your data set, that you can guys try.
+
+48
+00:07:14.120 --> 00:07:15.279
+Agalyashree R: Okay, thank you, ma'am.
+
+49
+00:07:17.660 --> 00:07:32.700
+Bharathi Dasari: For problem statement P2, I'm roughly taking here retail sales prediction as a problem statement, and I'm just giving an overview. Since it's, again, a prediction, and we are talking about sales, the chances of it being the seasonal defect is
+
+50
+00:07:32.930 --> 00:07:34.170
+Bharathi Dasari: can be high.
+
+51
+00:07:34.960 --> 00:07:38.130
+Bharathi Dasari: So, when you are doing the EDA,
+
+52
+00:07:38.430 --> 00:07:51.469
+Bharathi Dasari: Seasonality trends, try to include that. And also, multiple categories can get involved, so try to do product category analysis as well. If there are multiple stores present, try to do some store-wise performance as well.
+
+53
+00:07:51.590 --> 00:08:03.039
+Bharathi Dasari: try to get the distribution analysis of the sales, or yeah, try to get the distribution analysis of the sales. These are a few key components which we want to get covered in the EDA.
+
+54
+00:08:03.340 --> 00:08:07.400
+Bharathi Dasari: And also, correlation is something, very important to do.
+
+55
+00:08:08.190 --> 00:08:20.400
+Bharathi Dasari: And try doing some feature significance tests, like, what features that can go to the model, what it is telling. Try to give the reasoning, like, how this is playing a role, how thisâ€¦ this is important to the model and all.
+
+56
+00:08:21.820 --> 00:08:25.070
+Bharathi Dasari: Next, when come to baseline and experimentation.
+
+57
+00:08:25.410 --> 00:08:29.060
+Bharathi Dasari: You can start with a linear regression or a tension tree regression model.
+
+58
+00:08:29.560 --> 00:08:38.129
+Bharathi Dasari: And then you can go to, XGBoost and then land up for a small. So, whatever it is that is feasible for you, you guys can proceed in that way.
+
+59
+00:08:38.419 --> 00:08:42.510
+Bharathi Dasari: So, these are the few baseline models that you guys can try for problems that we do.
+
+60
+00:08:42.990 --> 00:08:55.569
+Bharathi Dasari: And the other analysis that can be carried out for this, when you're building a baseline model, is this detailed analysis is something you guys can do, like, to understand the model performance and all, and then cross-validation.
+
+61
+00:08:56.500 --> 00:08:59.390
+Bharathi Dasari: And heteroastery checks also you guys can do.
+
+62
+00:09:01.070 --> 00:09:14.529
+Bharathi Dasari: try to get the feature importance when you are building the model. Try to see how each feature is playing a role. Irrespective of the model you guys are building, try to get the feature importance. How it is adding importance to the model is something you guys can check.
+
+63
+00:09:17.950 --> 00:09:19.530
+Bharathi Dasari: Any questions?
+
+64
+00:09:19.700 --> 00:09:24.540
+was was: Yeah, I just mentioned future significance and,
+
+65
+00:09:27.270 --> 00:09:31.200
+was was: One other thing, residual analysis, could you explain these two terms?
+
+66
+00:09:31.770 --> 00:09:34.950
+Bharathi Dasari: Okay, so basically,
+
+67
+00:09:36.320 --> 00:09:46.490
+Bharathi Dasari: Okay, so basically, when you're building a model, how do you analyze your model is performing well, right? So, for prediction problems, accuracy is one metric.
+
+68
+00:09:46.490 --> 00:09:56.979
+Bharathi Dasari: False positives and false negatives can be anthemetic. So, when you're doing recreation models, how do you analyze its performance, right? You will do the residual analysis.
+
+69
+00:09:57.520 --> 00:10:14.020
+Bharathi Dasari: And when I talked about feature significance tests, so correlation isâ€¦ I mean, like, I was referring to both correlation and feature significance tests to understand how, variables are related, and also, outlier investigation is also that need to be done.
+
+70
+00:10:17.460 --> 00:10:18.750
+Bharathi Dasari: Am I clear this?
+
+71
+00:10:19.460 --> 00:10:25.520
+was was: So, mom, like, will I have to make, like, aâ€¦ like, all the variables on the heat map for them?
+
+72
+00:10:26.160 --> 00:10:27.530
+Bharathi Dasari: Yeah, correlation, yes.
+
+73
+00:10:27.970 --> 00:10:29.579
+was was: Okay, okay, understood.
+
+74
+00:10:33.540 --> 00:10:40.050
+Bharathi Dasari: For P3 customer segmentation, we are going for a clustering technique.
+
+75
+00:10:45.200 --> 00:10:45.920
+Bharathi Dasari: Yep.
+
+76
+00:10:46.920 --> 00:10:53.689
+Bharathi Dasari: So, P3 is a clustering approach, right? So, what you can do is, like, let's say we are taking some
+
+77
+00:10:55.220 --> 00:10:59.739
+Bharathi Dasari: Customer behavior segmentation, or some profiling.
+
+78
+00:11:00.120 --> 00:11:15.100
+Bharathi Dasari: for this problem statement, you can see the pattern analysis, you guys can do the pattern analysis in the EDA section, and then if there are demographic features present in your dataset, try to do demographic profiling, or if it is a banking data set, if you have the
+
+79
+00:11:15.310 --> 00:11:30.470
+Bharathi Dasari: civil score, or the FICO score, whatever the bank, like, features that can give profiling, try to do the profiling of the card members or the customers over there. And if there are any purchase behaviors, so try to get the purchase behavior trends as well over there.
+
+80
+00:11:30.600 --> 00:11:47.050
+Bharathi Dasari: So, since it's a clustering problem, try to do the PCA technique to, like, and visualize it, like, you will understand how it is playing a role over there. And again, correlation is something very important. Try to do the redundancy analysis as well for the same.
+
+81
+00:11:47.140 --> 00:11:57.500
+Bharathi Dasari: So since, it's slightly different from P1 and P2 prediction problems, so clustering, the techniques are slightly different, so try to see what that is very relevant.
+
+82
+00:11:57.500 --> 00:11:58.450
+Kritanhik Biswas: No. Yeah.
+
+83
+00:11:59.030 --> 00:12:05.940
+Kritanhik Biswas: Ma'am, we have to do all the three models. I mean, K means dviscan and hierarchical, or I can only stick with one.
+
+84
+00:12:06.580 --> 00:12:10.749
+Bharathi Dasari: You canâ€¦ okay, for baseline model, you can only go with one.
+
+85
+00:12:10.920 --> 00:12:17.589
+Bharathi Dasari: If you want to try more, or experiment more, and if you want to compare performances, you can do more than one.
+
+86
+00:12:17.590 --> 00:12:18.410
+Kritanhik Biswas: Okay, cool, cool.
+
+87
+00:12:19.190 --> 00:12:23.200
+Bharathi Dasari: Yeah. Ideally, baseline model is, like, we are expecting one model at this time.
+
+88
+00:12:25.290 --> 00:12:27.440
+Bharathi Dasari: Yeah. Some additionalâ€¦
+
+89
+00:12:27.650 --> 00:12:37.340
+Hemant Kalra: Yeah. Sorry to interrupt you, I have one question. For the next submission, for, like, P3 problem statement, what is the expectation till what part we have to complete? Is it
+
+90
+00:12:37.850 --> 00:12:40.969
+Hemant Kalra: EDA and post-dead modeling also, to some extent.
+
+91
+00:12:41.740 --> 00:12:50.759
+Bharathi Dasari: Yeah, so EDA has to be done, baseline model also is supposed to build, and feature engineering, feature analysis as well. So these steps need to be covered.
+
+92
+00:12:51.590 --> 00:12:59.800
+Bharathi Dasari: We will try to post in our hint, like, what all sections that need to be covered for weekâ€¦ mid-week submissions.
+
+93
+00:13:00.740 --> 00:13:01.760
+Hemant Kalra: Okay, thank you, man.
+
+94
+00:13:05.250 --> 00:13:08.110
+Bharathi Dasari: Andâ€¦ yeah. Soâ€¦
+
+95
+00:13:08.720 --> 00:13:18.729
+Bharathi Dasari: Some baseline models, what you can try is k-means, you can try hierarchical, you can try, or DVScan also, you guys can try. So whatever that is most suitable for you, proceed with that.
+
+96
+00:13:19.150 --> 00:13:29.870
+Bharathi Dasari: And few additional checks you guys can try to see is, like, to understand the clustering behavior, whether the clustering is happening properly or not, you guys can check with the elbow method.
+
+97
+00:13:29.890 --> 00:13:38.420
+Bharathi Dasari: And you can do the serial node score. Try to see, when you're building a baseline model, what the results are saying.
+
+98
+00:13:38.440 --> 00:13:57.679
+Bharathi Dasari: what the coefficients are saying, how it is saying. So, instead of giving the final output from a model output, try to see how that is playing a role. I mean, why that is happening is that needs to be understood. So, try working on that as well, when you're adding the baseline results.
+
+99
+00:13:59.300 --> 00:13:59.900
+Bharathi Dasari: Oh, that day.
+
+100
+00:13:59.900 --> 00:14:00.510
+Sindhu Manvitha M V: Hello, Mom.
+
+101
+00:14:01.270 --> 00:14:02.500
+Bharathi Dasari: Yeah, bye.
+
+102
+00:14:03.550 --> 00:14:15.649
+Sindhu Manvitha M V: Hello, ma'am, good evening. Actually, I wanted to ask, two questions. The first one is, how are we expected to grade, get grades for theâ€¦
+
+103
+00:14:15.940 --> 00:14:25.489
+Sindhu Manvitha M V: the first week, week two submissions month. Is there any, grading that we will receive, for the week 2 submissions?
+
+104
+00:14:25.790 --> 00:14:38.050
+Bharathi Dasari: Yeah, Sindhu, you guys will receive, grading this time. Like, we are working on that, so we are changing the technique, so maybe by this weekend or by midweek, you will get the evaluations.
+
+105
+00:14:39.550 --> 00:14:44.530
+Bharathi Dasari: So you guys will definitely receive evaluations, butâ€¦ Yep.
+
+106
+00:14:46.330 --> 00:14:53.810
+Sindhu Manvitha M V: Oh, myâ€¦ Week 5 submissions, yeah, for the week 5 submissions,
+
+107
+00:14:54.230 --> 00:14:57.860
+Sindhu Manvitha M V: Do we need to complete, EDLâ€¦
+
+108
+00:14:58.000 --> 00:15:13.530
+Sindhu Manvitha M V: for, model building for P5, ma'am, because my problem statement is P5, and it is, dealing with real-time data, so it consists of sensor sensitivity data, too.
+
+109
+00:15:13.530 --> 00:15:21.679
+Sindhu Manvitha M V: So, is it required to build more than two, three models, or is it enough just to complete the ED and featuring story?
+
+110
+00:15:21.970 --> 00:15:31.879
+Bharathi Dasari: So baseline model is the expectations in the for the midweek submission, irrespective of the problem statement you guys have chosen. So, yeah, the expectations for midweek submission is
+
+111
+00:15:32.190 --> 00:15:39.550
+Bharathi Dasari: Completing the EDA, feature engineering, and then construction of the baseline model and evaluation of those results.
+
+112
+00:15:40.760 --> 00:15:44.129
+Sindhu Manvitha M V: So we have to haveâ€¦ oh, okay.
+
+113
+00:15:45.750 --> 00:15:46.599
+Bharathi Dasari: Please go on.
+
+114
+00:15:47.260 --> 00:15:54.910
+Sindhu Manvitha M V: Okay. So there'sâ€¦ Is there any restriction that we need to build only one model, or is it necessary toâ€¦
+
+115
+00:15:55.110 --> 00:15:59.080
+Sindhu Manvitha M V: You know, compare a few models and then choose one.
+
+116
+00:15:59.190 --> 00:16:01.540
+Sindhu Manvitha M V: Like, describing our effort.
+
+117
+00:16:02.950 --> 00:16:11.240
+Bharathi Dasari: Okay, so if you're asking in terms of grading, if you are going to build more than one model, how your evaluation is going to carry it out.
+
+118
+00:16:11.240 --> 00:16:11.800
+Sindhu Manvitha M V: Yum.
+
+119
+00:16:12.290 --> 00:16:22.309
+Bharathi Dasari: That is not going to play a role, so the expectation is to build a baseline model, whether it is one single model or more than one model, is up to you. If you want to try other models.
+
+120
+00:16:22.420 --> 00:16:25.349
+Bharathi Dasari: then that's a good blending, I would rather say.
+
+121
+00:16:26.790 --> 00:16:27.470
+Sindhu Manvitha M V: Okay.
+
+122
+00:16:28.210 --> 00:16:31.549
+Sindhu Manvitha M V: Yeah, okay, that's for the question for me. Thank you.
+
+123
+00:16:35.950 --> 00:16:40.579
+was was: Ma'am, a follow-up question, during Trimester 1, theâ€¦
+
+124
+00:16:40.860 --> 00:16:49.990
+was was: the grades for the APEX project were not reflected in the CGP. Is that, like, norm for the APEX project? Like, they won't be included in the CGP?
+
+125
+00:16:52.750 --> 00:16:56.730
+Bharathi Dasari: so, Vaz, I think,
+
+126
+00:16:57.060 --> 00:17:12.159
+Bharathi Dasari: I was not very clear on the grading thing, but I remembered Nagasar saying in session one that these are not going to get added into your CC Pay. Again, I am notâ€¦ you can reach out to the ops team to get a better answer on this.
+
+127
+00:17:13.270 --> 00:17:13.880
+was was: Okay.
+
+128
+00:17:13.880 --> 00:17:19.630
+Aaditya Butola: It's a non-itable date, so it won't be added in our final or the paid sheet.
+
+129
+00:17:23.510 --> 00:17:24.690
+was was: Okay, I'm just recording.
+
+130
+00:17:29.020 --> 00:17:29.850
+Bharathi Dasari: VIN.
+
+131
+00:17:30.140 --> 00:17:32.869
+Bharathi Dasari: I will proceed for the problem statement before.
+
+132
+00:17:33.010 --> 00:17:42.900
+Bharathi Dasari: Soâ€¦ Since it's a customer response prediction problem using ANN as a technique, soâ€¦
+
+133
+00:17:43.170 --> 00:17:49.469
+Bharathi Dasari: I'm taking bank data as an example here, and I will select what are the EDS steps that can be done over here.
+
+134
+00:17:49.710 --> 00:17:56.449
+Bharathi Dasari: So let's say you're talking about a campaign success metric, or let's say you're working on a pharma data, or a
+
+135
+00:17:56.580 --> 00:18:02.870
+Bharathi Dasari: how new campaign is going to affect the existing customers. So try to get the customer demographics again here.
+
+136
+00:18:02.990 --> 00:18:15.070
+Bharathi Dasari: And then, how the preâ€¦ let's say you guys have more than one campaign. If you have previous campaign data, like how that campaign works, that can play a role, and feature importance is something that can be done.
+
+137
+00:18:15.610 --> 00:18:20.840
+Bharathi Dasari: So, these are the few ideas that can be done for this kind of campaign response prediction problem.
+
+138
+00:18:24.060 --> 00:18:35.939
+Bharathi Dasari: So, try to see whatever data is available, and try including how muchâ€¦ I'm, like, also to theâ€¦ when doing a feature importance analysis, try to see how these variables are adding importance to your model.
+
+139
+00:18:37.070 --> 00:18:53.709
+Bharathi Dasari: And whenâ€¦ also see the field rate. So, sometimes, even the field rate is pretty less, like, even though 40% is the field rate for the variables, they might add some significance to the model. Don't just drop the variables if the field rate is less. Experiment it.
+
+140
+00:18:53.770 --> 00:18:57.370
+Khaja Shaik: Feel thisâ€¦ Field rate, F-I-L-Rate.
+
+141
+00:18:57.370 --> 00:19:05.070
+Bharathi Dasari: fill rate. So, when I say fill rate, yeah, let's say your data is 100 rows.
+
+142
+00:19:05.510 --> 00:19:09.489
+Bharathi Dasari: For few variables, the data might not be populated completely.
+
+143
+00:19:09.890 --> 00:19:18.150
+Bharathi Dasari: When I say fill rate, out of 100 rows, only 40 rows the data is present. Rest 60 rows for that particular variable, data is absent.
+
+144
+00:19:20.080 --> 00:19:21.649
+Bharathi Dasari: Feel reâ€¦
+
+145
+00:19:21.900 --> 00:19:38.049
+Bharathi Dasari: it isâ€¦ that is how you refer in that terminology. Let's say, I mean, like, sometimes even 10% of the data might bring some value addition to your model. So, when doing feature importance, try to understandâ€¦ I'm like, don't dropâ€¦ drop the features.
+
+146
+00:19:38.050 --> 00:19:38.570
+Khaja Shaik: Understood.
+
+147
+00:19:38.570 --> 00:19:40.160
+Bharathi Dasari: Just because ofâ€¦ yeah.
+
+148
+00:19:40.570 --> 00:19:57.439
+Khaja Shaik: So, whether to basically fill those columns with average value, or maybe a particular constant, global constant, or whether to drop them. So, I think, like, what you were trying to tell me is, like, just because the total number of rows are very less, which are actually filled, don't blindly drop them. There might be a.
+
+149
+00:19:57.440 --> 00:20:10.819
+Bharathi Dasari: Yeah, don't blindly drop them. And, also, I don't mean by substituting with a mean value or doing some feature engineering or that. Just leave them as is. If it is a zero, keep it zero, keep it null.
+
+150
+00:20:11.170 --> 00:20:11.700
+Khaja Shaik: Okay.
+
+151
+00:20:11.700 --> 00:20:12.390
+Bharathi Dasari: In that sense.
+
+152
+00:20:19.170 --> 00:20:21.389
+Bharathi Dasari: Okay, so the baseline modelâ€¦
+
+153
+00:20:22.750 --> 00:20:28.110
+Khaja Shaik: So, I think, like, customer demographics, you've told, like, again, like, last time you have told, like, customer salary, customer age.
+
+154
+00:20:28.520 --> 00:20:35.100
+Khaja Shaik: basically to, I mean, know what type of customers we have, right? Based on employment, okay.
+
+155
+00:20:35.670 --> 00:20:40.340
+Khaja Shaik: And then you told if we have more than one campaign data available.
+
+156
+00:20:40.600 --> 00:20:46.070
+Khaja Shaik: But I don't think this will be available, I mean, because we're just using one dataset, right, ma'am, soâ€¦
+
+157
+00:20:46.510 --> 00:20:58.350
+Bharathi Dasari: Yeah, that is fine. I mean, like, so, if you're talking about the current campaign, you will only have one campaign data. Yes, yes. Let's say if there is one more column saying that.
+
+158
+00:20:58.350 --> 00:20:58.880
+Khaja Shaik: These peopleâ€¦
+
+159
+00:20:58.880 --> 00:21:08.420
+Bharathi Dasari: have forwarded to previous campaign positively, negatively. They didn't participate in a campaign. So, you can objectify these numbers, right? These values, right?
+
+160
+00:21:09.160 --> 00:21:10.139
+Bharathi Dasari: Let's see a minute.
+
+161
+00:21:12.850 --> 00:21:19.789
+Bharathi Dasari: Yeah. When it goes to the baseline for these models, you can go for a logistic regression or a random forest model.
+
+162
+00:21:19.910 --> 00:21:22.420
+Bharathi Dasari: So, that is a good start for this.
+
+163
+00:21:22.690 --> 00:21:32.240
+Bharathi Dasari: And then, when it comes to experimentation of these ANL models, try to play around with the hidden layers, whether you want to go with one hidden layer, two hidden layers, or three hidden layers.
+
+164
+00:21:33.170 --> 00:21:39.960
+Bharathi Dasari: And alsoâ€¦ Try to, change the bath size and the epoch values.
+
+165
+00:21:40.010 --> 00:21:44.380
+Bharathi Dasari: Try doing experiment with the landing rate along with the dropout.
+
+166
+00:21:44.390 --> 00:21:50.200
+Bharathi Dasari: So, I'm like, don't go with the one fixer. Like, sometimes it might overfit the model.
+
+167
+00:21:50.200 --> 00:22:06.130
+Bharathi Dasari: And it sometimes underfits a model. Try to get a better value, so where your model is performing better, and where it is actually capturing the trends, try to go with it. So, you need someâ€¦ you guys need to do some experimentation around these values, and put whatever it is working for you.
+
+168
+00:22:06.520 --> 00:22:07.520
+Bharathi Dasari: Soâ€¦
+
+169
+00:22:07.520 --> 00:22:11.100
+Khaja Shaik: Can you repeat once? Like, you said to change the batch size?
+
+170
+00:22:11.950 --> 00:22:14.700
+Bharathi Dasari: Okay, I was talking about hidden layers.
+
+171
+00:22:15.030 --> 00:22:16.939
+Bharathi Dasari: And then patch size?
+
+172
+00:22:16.940 --> 00:22:17.570
+Khaja Shaik: Correct.
+
+173
+00:22:17.920 --> 00:22:33.189
+Bharathi Dasari: And batches of whether 16, 32, 64. So it depends, again, on the memory size as well, where you are running. If you're running on your local device, it might take more time, so try to keep that in mind while running the models as well. And then you canâ€¦
+
+174
+00:22:33.520 --> 00:22:35.640
+Bharathi Dasari: Lending rate, as well as dropout.
+
+175
+00:22:35.940 --> 00:22:37.870
+Khaja Shaik: Drop off, okay, drop off.
+
+176
+00:22:38.010 --> 00:22:39.669
+Bharathi Dasari: Few things you guys can try.
+
+177
+00:22:41.660 --> 00:22:48.470
+Bharathi Dasari: You can look at the learning curve to understand how the model is performing, and you guys can also do the overfitting analysis.
+
+178
+00:22:51.940 --> 00:22:54.990
+Bharathi Dasari: These are a few things for problem statement before.
+
+179
+00:22:55.330 --> 00:22:57.660
+Bharathi Dasari: So far, any questions?
+
+180
+00:23:05.770 --> 00:23:06.570
+Bharathi Dasari: Okay?
+
+181
+00:23:07.270 --> 00:23:09.249
+Bharathi Dasari: I'll proceed to P5.
+
+182
+00:23:10.350 --> 00:23:18.529
+Bharathi Dasari: So, P5 is classification, product quality classification, right? So, yeah.
+
+183
+00:23:19.970 --> 00:23:26.139
+Bharathi Dasari: Since it's a product vertical application, I will take some industrial example, and then I'll.
+
+184
+00:23:26.140 --> 00:23:33.800
+Khaja Shaik: I have one question. For these models, right, logistic regression, random forest, should we capture any metrics, or, likeâ€¦
+
+185
+00:23:34.450 --> 00:23:40.740
+Bharathi Dasari: Yeah, you need to capture. So, how are you going to define this? What is the performance of the model? So, you need to define.
+
+186
+00:23:41.680 --> 00:23:42.450
+Khaja Shaik: Okay.
+
+187
+00:23:44.590 --> 00:23:53.890
+Bharathi Dasari: I mean, like, when you're defining theâ€¦ I mean, like, how you're interpreting the model performance, you also need to tell, like, what this baseline model is telling about your data set.
+
+188
+00:23:54.820 --> 00:23:57.129
+Bharathi Dasari: How it is interpreting your data.
+
+189
+00:23:58.180 --> 00:23:58.640
+Khaja Shaik: Okay.
+
+190
+00:24:02.540 --> 00:24:08.699
+Aaditya Butola: What are all features we can, you know, add in the banking data set, right?
+
+191
+00:24:08.960 --> 00:24:10.999
+Aaditya Butola: I can add, in terms ofâ€¦
+
+192
+00:24:11.270 --> 00:24:15.260
+Aaditya Butola: make new features, featuring the room. Like, in general.
+
+193
+00:24:15.260 --> 00:24:15.970
+Bharathi Dasari: Soâ€¦
+
+194
+00:24:16.340 --> 00:24:25.399
+Bharathi Dasari: What are the values you have, like, when it comes to banking? What is the problem statement you have? Is it a prediction or a classification? P4, okay.
+
+195
+00:24:25.740 --> 00:24:30.359
+Bharathi Dasari: When you say banking data, You can do customer profiling.
+
+196
+00:24:31.760 --> 00:24:35.869
+Bharathi Dasari: If you have risk-related features, you can have risk-related features as well.
+
+197
+00:24:37.540 --> 00:24:43.190
+Bharathi Dasari: Since it's a campaign data, clicking impressions.
+
+198
+00:24:43.390 --> 00:24:44.750
+Bharathi Dasari: etc.
+
+199
+00:24:45.110 --> 00:24:49.469
+Bharathi Dasari: Like, if you tell me what data you have, maybe I can help you better in that way.
+
+200
+00:24:50.290 --> 00:24:51.080
+Aaditya Butola: Yeah, mute.
+
+201
+00:24:56.750 --> 00:25:05.439
+Khaja Shaik: With regard to metrics, like, you meant capturing, like, precision, recall, F1 score, area underâ€¦
+
+202
+00:25:08.200 --> 00:25:09.460
+Bharathi Dasari: So, okay.
+
+203
+00:25:11.100 --> 00:25:12.290
+Khaja Shaik: metrics, I mean.
+
+204
+00:25:12.760 --> 00:25:15.830
+Bharathi Dasari: Yeah, you can say that, depending on the model, again, you are using.
+
+205
+00:25:15.830 --> 00:25:17.199
+Khaja Shaik: Okay, okay.
+
+206
+00:25:23.530 --> 00:25:27.390
+Bharathi Dasari: So, Aditya, are we going to share some of the features, orâ€¦
+
+207
+00:25:27.510 --> 00:25:29.269
+Bharathi Dasari: Are you good for that, on that?
+
+208
+00:25:30.080 --> 00:25:35.339
+Aaditya Butola: Yeah, mom, you can continue. I will just add data in theâ€¦ I'm just finding my data.
+
+209
+00:25:36.300 --> 00:25:42.050
+Bharathi Dasari: Okay, so I'll go with the P5 for now. If you guys have any questions, you can stop me again, okay?
+
+210
+00:25:42.390 --> 00:25:43.890
+Bharathi Dasari: Okay, for P5â€¦
+
+211
+00:25:43.890 --> 00:25:56.049
+Khaja Shaik: Before, ma'am, like, before you move further, again, this might be a general question, or this might have been answered already. I joined a bit late. We did not yet get any feedback as such via email or any other form.
+
+212
+00:25:56.050 --> 00:26:08.499
+Khaja Shaik: So, before proceeding further, how can we maybe take a conscious decision whether our approach is correct, or should we maybe rework on the approach even before we proceed further? So, what would your advice be?
+
+213
+00:26:09.210 --> 00:26:12.690
+Bharathi Dasari: Okay, so, okay.
+
+214
+00:26:12.870 --> 00:26:16.329
+Bharathi Dasari: I would rather say don't wait for the feedback.
+
+215
+00:26:16.330 --> 00:26:16.760
+Khaja Shaik: Hmm.
+
+216
+00:26:16.760 --> 00:26:34.019
+Bharathi Dasari: We are trying to push the feedback, maybe by midweek nextâ€¦ by mid-next week, you will receive the feedback. What I will rather say is, like, the problem statements are defined. The classification problems, these are defined, and ANN problems is something you have worked in the lastâ€¦ in your last trimester. Soâ€¦
+
+217
+00:26:34.230 --> 00:26:49.180
+Bharathi Dasari: I am assuming you guys have a better idea. So, when you are defining what you have to do and what you have to do next, from the sample reports, even what I have seen, majority of the students were able to understand what they want to do in the next steps. Soâ€¦
+
+218
+00:26:49.470 --> 00:26:50.550
+Khaja Shaik: Finally.
+
+219
+00:26:50.550 --> 00:26:56.619
+Bharathi Dasari: By doing that, because EDA, feature engineering, these steps are common, whatever model you are going to do, right? Soâ€¦
+
+220
+00:26:56.620 --> 00:26:57.140
+Khaja Shaik: Yeah.
+
+221
+00:26:57.140 --> 00:26:58.990
+Bharathi Dasari: Yeah, don't wait till it fax.
+
+222
+00:26:59.200 --> 00:27:00.590
+Khaja Shaik: Okay, sure.
+
+223
+00:27:03.880 --> 00:27:07.720
+Aaditya Butola: The data set is home, credit, default risk.
+
+224
+00:27:09.760 --> 00:27:10.610
+Bharathi Dasari: 18.
+
+225
+00:27:11.200 --> 00:27:16.079
+Bharathi Dasari: Okay? So, it's a prediction, right? Campaign prediction, right?
+
+226
+00:27:16.560 --> 00:27:19.619
+Bharathi Dasari: So, what is your problem statement you have chosen?
+
+227
+00:27:21.480 --> 00:27:22.570
+Aaditya Butola: P4.
+
+228
+00:27:23.510 --> 00:27:28.199
+Bharathi Dasari: Yeah. So, I understood your problem statement. Object two of your problem.
+
+229
+00:27:29.530 --> 00:27:32.190
+Aaditya Butola: Object as in?
+
+230
+00:27:32.990 --> 00:27:35.359
+Bharathi Dasari: Object present, what are you trying to achieve?
+
+231
+00:27:38.050 --> 00:27:50.300
+Aaditya Butola: To predict loan repayment behavior so that the credit-worthy applicants can be approved, and high-risk applicants can be flagged before the loan approval.
+
+232
+00:28:04.410 --> 00:28:06.400
+Bharathi Dasari: Okay, what all fields you have?
+
+233
+00:28:09.910 --> 00:28:12.310
+Aaditya Butola: Fields, as in features.
+
+234
+00:28:12.930 --> 00:28:13.980
+Bharathi Dasari: Yeah, features.
+
+235
+00:28:14.590 --> 00:28:16.700
+Aaditya Butola: There are 122 features.
+
+236
+00:28:18.850 --> 00:28:23.990
+Bharathi Dasari: So, I'mâ€¦ This will come under a prediction problem.
+
+237
+00:28:24.170 --> 00:28:31.469
+Bharathi Dasari: Butâ€¦ I am not understanding how this is going to come under customer response. Like, what is it?
+
+238
+00:28:31.970 --> 00:28:37.269
+Bharathi Dasari: You are advertising, or you are creating something, that customer is responding back to you.
+
+239
+00:28:39.190 --> 00:28:46.939
+Aaditya Butola: Basically, what the model I'm trying to make is that it flags whether the person
+
+240
+00:28:47.280 --> 00:28:49.480
+Aaditya Butola: Will repay the loan or not.
+
+241
+00:28:50.230 --> 00:28:55.729
+Aaditya Butola: To his, all the previous records in the bank.
+
+242
+00:28:57.120 --> 00:28:58.130
+Aaditya Butola: Indeed.
+
+243
+00:29:00.450 --> 00:29:16.709
+Bharathi Dasari: I understood what you were saying. So, what I'm trying to say from the problem statement before, how we have defined is, let's say when youâ€¦ a new product is launched, or a new campaign is launched, so we are trying to see how customer is responding to that,
+
+244
+00:29:17.700 --> 00:29:30.539
+Bharathi Dasari: Now, you are lookingâ€¦ the problem statement, what you're looking is, like, a deepâ€¦ whether the customer is going back to pay a loan or not. So, it is not somethingâ€¦ we have shared that data, and then customer back is responding to that.
+
+245
+00:29:30.670 --> 00:29:33.580
+Bharathi Dasari: So, it might not fit under P4.
+
+246
+00:29:34.920 --> 00:29:45.960
+Bharathi Dasari: That is what my understanding was, but, we will look into this. So, so far, for you, when you're talking about features,
+
+247
+00:29:48.170 --> 00:29:53.399
+Bharathi Dasari: Atita, I will connect with you later on this, because I look at your dataset, and I'll reach out to you.
+
+248
+00:29:55.300 --> 00:29:55.950
+Bharathi Dasari: Yeah.
+
+249
+00:29:55.950 --> 00:30:01.099
+Aaditya Butola: So, should I continue on this project right now, or should I stop forâ€¦ for a while?
+
+250
+00:30:02.210 --> 00:30:12.300
+Bharathi Dasari: No, I will, like, maybe in the last 10 minutes or 15 minutes, I'll try to get you a dataset, and I will see. Or, if you think the dataset is not very reliable, I will reach out to you right after the class.
+
+251
+00:30:12.610 --> 00:30:14.720
+Bharathi Dasari: Maybe today or tomorrow you can expect.
+
+252
+00:30:14.960 --> 00:30:18.179
+Bharathi Dasari: If it is not. I'll just give you a confirmation on it.
+
+253
+00:30:18.430 --> 00:30:22.850
+Aaditya Butola: Okay, so should I send you the link for the dataset? It is a Kaggle dataset, actually.
+
+254
+00:30:22.870 --> 00:30:25.220
+Bharathi Dasari: Yeah, you can share it to me, I'll go through.
+
+255
+00:30:25.220 --> 00:30:26.710
+Aaditya Butola: Via Gmail.
+
+256
+00:30:27.760 --> 00:30:33.370
+Bharathi Dasari: You can share it in a Zoom link, like, in this chat itself, to me. I will go through that.
+
+257
+00:30:34.370 --> 00:30:35.030
+Aaditya Butola: Welcome.
+
+258
+00:30:40.850 --> 00:30:42.929
+Bharathi Dasari: Let me proceed with P5.
+
+259
+00:30:43.300 --> 00:30:57.830
+Bharathi Dasari: So, since it's a product quality analysis we are doing, when you are covering the EDA for this, try to get, like, if it is an industry problem, and you are manufacturing something, try to get the defect distribution analysis. If it isâ€¦
+
+260
+00:30:58.040 --> 00:31:12.319
+Bharathi Dasari: some sensor, like, the product will be veryâ€¦ differing from industry to industry, right? Try to get all the analysis related to those variables, and do the correlation analysis, and feature significance is something you guys can do. How each feature is
+
+261
+00:31:12.420 --> 00:31:14.399
+Bharathi Dasari: Playing importance to the model.
+
+262
+00:31:14.540 --> 00:31:20.820
+Bharathi Dasari: When it comes to the baseline models for this ANN, again, you can go for Titian 3 or Random Forest.
+
+263
+00:31:23.810 --> 00:31:31.350
+Bharathi Dasari: And then the other experiments, what you can do is, like, the number of hidden neurons. So, try what is more feasible for you, and try to
+
+264
+00:31:31.520 --> 00:31:35.860
+Bharathi Dasari: Change the number of neurons in the model, and how your model performance is changing.
+
+265
+00:31:36.020 --> 00:31:39.579
+Bharathi Dasari: Number of hidden layers comparison is also something you guys can do.
+
+266
+00:31:40.770 --> 00:31:48.200
+Bharathi Dasari: and then patch normalization, dropout, L2 regularization. These are a few techniques that you guys can try.
+
+267
+00:31:49.050 --> 00:31:50.459
+Bharathi Dasari: for the ANN model.
+
+268
+00:31:51.060 --> 00:31:58.840
+Bharathi Dasari: And for the diagnostics of the model, you can do validation analysis, convergence analysis, Andâ€¦
+
+269
+00:31:59.140 --> 00:32:02.369
+Bharathi Dasari: Yeah, I think this is pretty much that we'll cover.
+
+270
+00:32:02.640 --> 00:32:05.100
+Bharathi Dasari: for P5 ANN statement.
+
+271
+00:32:16.820 --> 00:32:20.970
+Bharathi Dasari: Soâ€¦ So far, any questions?
+
+272
+00:32:23.870 --> 00:32:24.740
+Khaja Shaik: No.
+
+273
+00:32:27.260 --> 00:32:30.379
+Bharathi Dasari: For P4 statements, Ravni,
+
+274
+00:32:30.480 --> 00:32:50.439
+Bharathi Dasari: Yeah, I will repeat it again for you. So, what it tried to say is, like, when you are doing a campaign, this is more of a campaign analysis, campaign response analysis, right? If I'm talking about a banking data, so you need to get the customer demographics. If there are any previous campaigns, try to see how they have responded.
+
+275
+00:32:50.640 --> 00:32:53.240
+Bharathi Dasari: Try to get the feature importance study.
+
+276
+00:32:54.730 --> 00:32:59.060
+Bharathi Dasari: customer success analysis on this, like, how they're responding. Soâ€¦
+
+277
+00:32:59.230 --> 00:33:02.439
+Bharathi Dasari: These are the few idiot things that you can measure.
+
+278
+00:33:02.680 --> 00:33:08.279
+Bharathi Dasari: And then, for the baseline and experimentation, you can start with logistic regression and random forest.
+
+279
+00:33:08.620 --> 00:33:15.139
+Bharathi Dasari: And you can play around with the number of hidden layers in your model, and then you can also change the path size.
+
+280
+00:33:15.310 --> 00:33:23.699
+Bharathi Dasari: you can do the lending rate and see how your ANN is behaving. Experiments around lending rate and dropout is something you needâ€¦ you can do.
+
+281
+00:33:24.390 --> 00:33:28.270
+Bharathi Dasari: And for diagnostics, Try to look at the learning curves.
+
+282
+00:33:28.630 --> 00:33:30.670
+Bharathi Dasari: Do the overfitting analysis.
+
+283
+00:33:31.080 --> 00:33:31.810
+Bharathi Dasari: Yep.
+
+284
+00:33:33.040 --> 00:33:36.280
+Bharathi Dasari: That is pretty much the caus about, P4 statement.
+
+285
+00:33:39.580 --> 00:33:41.860
+Bharathi Dasari: Yeah.
+
+286
+00:33:42.490 --> 00:33:47.450
+was was: For EDA, I have the second problem statement.
+
+287
+00:33:47.650 --> 00:33:55.459
+was was: Is sales, like, the change in sales, across the years, that's one.
+
+288
+00:33:56.150 --> 00:34:07.190
+was was: Like, per EDA, are these four points enough? First is sales changing across the years. Second is sale and item distribution as per the years.
+
+289
+00:34:07.410 --> 00:34:13.570
+was was: And the third one is the sales distribution as per value. These three points are enough for EDA, right? For the second.
+
+290
+00:34:14.800 --> 00:34:31.080
+Bharathi Dasari: Yeah, so these areâ€¦ I'm just giving, very brief over here. You will be doing the pairwise plots, like, individual uni-plot analysisâ€¦ univariate analysis, bivariate analysis, how each variable is, varying with the target. These are few things, by default, you have to do.
+
+291
+00:34:31.080 --> 00:34:34.919
+Bharathi Dasari: Apart from that, I'm saying that these are a few additional things that you can do.
+
+292
+00:34:34.920 --> 00:34:37.449
+Bharathi Dasari: You will be doing the correlation heatmap analysis.
+
+293
+00:34:37.449 --> 00:34:43.800
+Bharathi Dasari: And if there are any feature modifications, and if there is encoding that is required, you can do that as well.
+
+294
+00:34:45.610 --> 00:34:51.400
+was was: Great, and ma'am, can we get the transcripts for the, theâ€¦ decisions.
+
+295
+00:34:52.510 --> 00:34:56.779
+Bharathi Dasari: I will check with the ops team, I'm not sure how to share that, but I'll check.
+
+296
+00:34:57.450 --> 00:34:58.430
+was was: Okay, thank you.
+
+297
+00:34:59.960 --> 00:35:04.550
+P. LAKSHMI: Ma'am, can you please repeat the, 35,
+
+298
+00:35:04.690 --> 00:35:09.169
+P. LAKSHMI: Learning way to learn diagnosis, once again?
+
+299
+00:35:09.900 --> 00:35:16.690
+Bharathi Dasari: Okay, so I'm talking about conversions analysis for PFI, and loss curves is something you can look at.
+
+300
+00:35:27.190 --> 00:35:36.300
+P. LAKSHMI: You also mentioned something, number of hidden neurons comparison. After that, you said learning route rate, dropout, and, something else also.
+
+301
+00:35:36.300 --> 00:35:53.759
+Bharathi Dasari: Okay, so when you're doing the experimentations, what I said, like, you can change the number of turrets, the number of hidden neurons, you can change it from 32 to 62, or 64 to 128, and you can see how it is varied. And number of hidden layers comparison. Let's say you can go with one hidden layer, two hidden layers, or three layersâ€¦
+
+302
+00:35:53.760 --> 00:35:57.169
+Bharathi Dasari: Three hidden layers, and you can see the model performance again.
+
+303
+00:35:57.880 --> 00:36:00.370
+Bharathi Dasari: And then, optimizer comparison.
+
+304
+00:36:02.670 --> 00:36:03.590
+Bharathi Dasari: Okay.
+
+305
+00:36:15.040 --> 00:36:17.379
+P. LAKSHMI: You also mentioned dropout also, right?
+
+306
+00:36:17.960 --> 00:36:24.989
+Bharathi Dasari: Yeah, I mentioned dropouts, so I'm saying the techniques, but what is more close to your data set, try to implement that.
+
+307
+00:36:25.560 --> 00:36:26.150
+P. LAKSHMI: Oh.
+
+308
+00:36:38.190 --> 00:36:42.949
+Bharathi Dasari: Aditya, your problem is not going to fit under problem statement K4.
+
+309
+00:36:47.890 --> 00:36:53.660
+Aaditya Butola: concept is same, right? Like, I am making a model which predicts either
+
+310
+00:36:53.980 --> 00:36:56.060
+Aaditya Butola: It is default or not default.
+
+311
+00:37:09.670 --> 00:37:11.900
+Bharathi Dasari: Yeah, one way you can say thatâ€¦
+
+312
+00:37:21.830 --> 00:37:28.409
+Bharathi Dasari: Okay, so one thing that will actually change here isâ€¦ I mean, like, when youâ€¦ when we are talking about response data is.
+
+313
+00:37:28.610 --> 00:37:39.110
+Bharathi Dasari: But to get a response, initially, whether it's a bank, or a organization, or any shopping mall, we will be reaching out to the customers, right?
+
+314
+00:37:39.280 --> 00:37:44.160
+Bharathi Dasari: So, in that cases, how the customer is responding, the response pattern will change.
+
+315
+00:37:44.510 --> 00:37:51.310
+Bharathi Dasari: Some will just go with an inquiry, some will go and do the window shopping, some will actually purchase, purchase.
+
+316
+00:37:51.420 --> 00:37:52.450
+Bharathi Dasari: Soâ€¦
+
+317
+00:37:52.820 --> 00:37:58.390
+Bharathi Dasari: I know P4 is a prediction problem, whether default or not default. That is how it is going to be.
+
+318
+00:37:58.640 --> 00:38:00.220
+Bharathi Dasari: But,
+
+319
+00:38:00.920 --> 00:38:07.450
+Bharathi Dasari: What will happen here around is the way how the dataset is being defined to get an output will change.
+
+320
+00:38:11.990 --> 00:38:13.559
+Aaditya Butola: I didn't need to.
+
+321
+00:38:14.620 --> 00:38:19.510
+Bharathi Dasari: But it will work under, so, prediction problem is, you canâ€¦
+
+322
+00:38:19.530 --> 00:38:36.300
+Bharathi Dasari: do for it. I mean, like, you can go for this model since already we are three weeks ahead, we can go for this for the people statement. But if you see whether it is defined falling in the criteria, it is not falling in the criteria. But the rest of the things, how you want to proceed, those things can be
+
+323
+00:38:36.350 --> 00:38:39.579
+Bharathi Dasari: done in this dataset. There is nothing wrong with that.
+
+324
+00:38:56.900 --> 00:38:59.600
+Bharathi Dasari: You have some good features which can be used.
+
+325
+00:38:59.980 --> 00:39:13.229
+Bharathi Dasari: So, yeah, you can try them, but I think 122, building a model with 122 features can be slightly hectic. Try to see if there are outliers, and try to see the filter for these features, and then you can proceed.
+
+326
+00:39:14.490 --> 00:39:21.170
+Aaditya Butola: Yeah, it has some null values aroundâ€¦ many features have inner values in it, so I will draw up the color.
+
+327
+00:39:21.740 --> 00:39:22.690
+Aaditya Butola: accordingly.
+
+328
+00:39:26.230 --> 00:39:28.469
+Bharathi Dasari: Any other questions any of you guys have?
+
+329
+00:39:44.870 --> 00:39:45.990
+Bharathi Dasari: Soâ€¦
+
+330
+00:39:54.410 --> 00:40:13.889
+Bharathi Dasari: Okay, so regarding the submission that need to be done for the midweek, Ajit will soon post, when the submissions will open, and we will also tell the format of submissions, and we will give you a detailed post in a day or two what all things that need to be covered. I mean, like, the sections that can be covered in the Python module.
+
+331
+00:40:14.040 --> 00:40:17.220
+Bharathi Dasari: please, proceed with that. That would beâ€¦
+
+332
+00:40:17.580 --> 00:40:21.419
+Bharathi Dasari: That will give you an idea of what all areas that can be covered for the submission.
+
+333
+00:40:31.340 --> 00:40:38.099
+Bharathi Dasari: Any other questions with respect to the steps of model building, or, like, feature engineering, or feature extraction?
+
+334
+00:40:53.830 --> 00:41:06.889
+Bharathi Dasari: I have scheduled this much only for this class, like, if you guys have any questions, please stay in the call and get it cleared. Otherwise, you guys can drop off, yeah. I have pretty much covered everything from my endâ€¦ my end.
+
+335
+00:41:16.460 --> 00:41:17.490
+P. LAKSHMI: Thank you, ma'am.
+
+336
+00:41:18.290 --> 00:41:19.099
+Bharathi Dasari: Thank you.
+
+337
+00:41:36.790 --> 00:41:37.490
+Shubhendu Awasthi: Thank you.
+
+338
+00:41:43.240 --> 00:41:44.960
+Bharathi Dasari: Sorry, you didn't even say anything?
+
+339
+00:41:46.930 --> 00:41:48.599
+Shubhendu Awasthi: No, it's just the intention.
+
+340
+00:41:49.210 --> 00:41:50.200
+Bharathi Dasari: Yeah, thank you.
+
+341
+00:42:31.060 --> 00:42:38.330
+Bharathi Dasari: Okay, if there are no more questions, you guys can drop off. If you have any, please let me know. We can go through them.
+
+342
+00:43:39.760 --> 00:43:46.400
+Bharathi Dasari: Okay, thenâ€¦ then I am ending the session from my end as well. Thank you guys for joining. Thank you, Ashish.
